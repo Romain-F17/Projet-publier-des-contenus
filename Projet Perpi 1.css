@@ -1,3 +1,136 @@
+.header-container {
 
+    width: 1440px ;
+
+    height: 50px;
+
+    background: #6E5A5A;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 0 17px;
+
+}
+
+.Image {
+
+    width: 1474px ;
+
+    height: 500px;
+
+    background: linear-gradient(0deg, white 0%, white 100%);
+
+    display: block; /* Assure que l'image ne crée pas d'espaces en bas */
+
+}
+
+
+.logo {
+
+    width: 90px;
+
+    height: 89px;
+
+}
+
+
+.navigation ul {
+
+    display: flex;
+
+    gap: 20px; /* Espace entre les éléments */
+
+    list-style: none;
+
+    margin: 0;
+
+    padding-left: 93%;
+
+}
+
+
+.nav-item {
+
+    padding: 8px;
+
+    border-radius: 8px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+
+.nav-item div {
+
+    color: #FFFEFE;
+
+    font-size: 16px;
+
+    font-family: Inter;
+
+    font-weight: 400;
+
+    line-height: 16px;
+
+    word-wrap: break-word;
+
+}
+
+
+.nav-item.active {
+
+    background: #F5F5F5; /* Couleur de fond pour l'élément actif */
+
+    color: #1E1E1E; /* Couleur du texte pour l'élément actif */
+
+}
+
+
+.auth-buttons {
+
+    display: flex;
+
+    gap: 12px;
+
+}
+
+
+.login-button, .signup-button {
+
+    padding: 8px 16px;
+
+    border-radius: 8px;
+
+    border: none;
+
+    cursor: pointer;
+
+}
+
+
+.login-button {
+
+    background: #CDCDCD;
+
+    color: #1E1E1E;
+
+}
+
+
+.signup-button {
+
+    background: #2C2C2C;
+
+    color: #F5F5F5;
+
+}
 
 
