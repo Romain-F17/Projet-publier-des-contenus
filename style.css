@@ -21,9 +21,10 @@
 .Image1 {
 
     max-width: 1440px;
+   
     width: 1440px ;
 
-    height: 500px;
+    height: 471px;
 
     background: linear-gradient(0deg, #ffffff 0%, #ffffff 100%);
 
@@ -129,8 +130,26 @@
 
 body {
 
-height: auto ;
-max-width : 1440px ; 
+    max-width: 1440px; /* Largeur maximale */
+
+    width: 100%; /* Prend 100% de la largeur jusqu'à 1440px */
+
+    height: fit-content;
+
+    margin: 0 auto; /* Centre le conteneur */
+
+
+}
+
+.Dekstop {
+
+    max-width: 1440px; /* Largeur maximale */
+
+    width: 100%; /* Prend 100% de la largeur jusqu'à 1440px */
+
+    height: fit-content;
+
+    margin: 0 auto; /* Centre le conteneur */
 
 }
 
@@ -146,9 +165,9 @@ max-width : 1440px ;
 
 .image-container {
 
-    width: 570px; /* Largeur du conteneur */
+    width: 619px; /* Largeur du conteneur */
 
-    height: 415px; /* Hauteur automatique pour maintenir le ratio d'aspect */
+    height: 451px; /* Hauteur automatique pour maintenir le ratio d'aspect */
 
     max-width: 800px; /* Largeur maximale du conteneur */
 
@@ -177,7 +196,7 @@ max-width : 1440px ;
 
     height: 397px;
 
-    left: 780px;
+    left: 850px;
 
     top: 0px;
 
@@ -661,7 +680,7 @@ padding-top: 10%;
 
     .Footer {
 
-        width: 100%;
+        width: 1376px;
     
         height: 100%;
     
