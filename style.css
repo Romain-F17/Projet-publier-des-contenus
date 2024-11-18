@@ -199,6 +199,8 @@ body {
 
     left: 658px;
 
+    bottom: 54px;
+    
     top: 0px;
 
     position: absolute;
@@ -345,7 +347,22 @@ body {
 
 .MidBody {
 
-padding-top: 10%;
+    padding-top: 10%;
+    position: relative;
+    top: 1156px;
+    right: 120px;
+    left: 121px;
+    bottom: 653px;
+
+}
+
+
+.MidBody1 {
+
+    padding-top: 10%;
+    position: relative;
+    right: 21.3px;
+    bottom: 490px;
 
 }
 
@@ -357,7 +374,9 @@ padding-top: 10%;
 
     position: relative;
 
-    left: 170px;
+    right: 911px;
+
+    bottom: 493px
 
 }
 
@@ -439,7 +458,13 @@ padding-top: 10%;
 
     position: absolute;
 
-    left: 620px;
+    left: 464px;
+
+    right: 464px;
+
+    bottom: 490px;
+
+    top: 7px;
 
 }
 
@@ -451,12 +476,18 @@ padding-top: 10%;
 
     position: absolute;
 
-    Left: 1100px;
+    left: 946px;
+
+    right: 21.3px;
+
+    bottom: 490px;
+
+    top: 7px;
 }
 
 .MidBody2 {
 
-    padding-top: 32%;
+    top: 490px;
     
     }
 
@@ -468,31 +499,38 @@ padding-top: 10%;
 
     position: relative;
 
-    left: 175px;
+    top: 497px;
 
+    right: 928px;
 }
 
 .Group6 {
 
-    width: 1440px;
+    max-width: 1440px;
 
     height: 100%;
-    
-    position: relative;
-    
-    left: 620px;
+
+    position: absolute;
+
+    left: 464px;
+
+    right: 464px;
+
+    top: 503px;
 
     }
 
 .Group7 {
 
-    width: 1440px;
+    max-width: 1440px;
 
     height: 100%;
 
-    position: relative;
+    position: absolute;
 
-    Left: 1100px;
+    left: 928px;
+
+    top: 503px;
     
     }
 
