@@ -130,28 +130,12 @@
 
 body {
 
-    max-width: 1440px; /* Largeur maximale */
-
-    width: 100%; /* Prend 100% de la largeur jusqu'à 1440px */
-
-    height: fit-content;
-
-    margin: 0 auto; /* Centre le conteneur */
-
+max-height: fit-content;
+max-width : 1440px ;
+width: 1440px
 
 }
 
-.Dekstop {
-
-    max-width: 1440px; /* Largeur maximale */
-
-    width: 100%; /* Prend 100% de la largeur jusqu'à 1440px */
-
-    height: fit-content;
-
-    margin: 0 auto; /* Centre le conteneur */
-
-}
 
 .Topbody {
 
