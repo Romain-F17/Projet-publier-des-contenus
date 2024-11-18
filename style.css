@@ -188,7 +188,6 @@ body {
 
     display: block; /* Évite les espaces en bas de l'image */
 
-    right: 570px; 
 }
 
 .TextContentFlow {
@@ -197,10 +196,8 @@ body {
 
     height: 397px;
 
-    left: 658px;
+    left: 850px;
 
-    bottom: 54px;
-    
     top: 0px;
 
     position: absolute;
@@ -347,22 +344,7 @@ body {
 
 .MidBody {
 
-    padding-top: 10%;
-    position: relative;
-    top: 1156px;
-    right: 120px;
-    left: 121px;
-    bottom: 653px;
-
-}
-
-
-.MidBody1 {
-
-    padding-top: 10%;
-    position: relative;
-    right: 21.3px;
-    bottom: 490px;
+padding-top: 10%;
 
 }
 
@@ -374,9 +356,7 @@ body {
 
     position: relative;
 
-    right: 911px;
-
-    bottom: 493px
+    left: 170px;
 
 }
 
@@ -458,13 +438,7 @@ body {
 
     position: absolute;
 
-    left: 464px;
-
-    right: 464px;
-
-    bottom: 490px;
-
-    top: 7px;
+    left: 620px;
 
 }
 
@@ -476,18 +450,12 @@ body {
 
     position: absolute;
 
-    left: 946px;
-
-    right: 21.3px;
-
-    bottom: 490px;
-
-    top: 7px;
+    Left: 1100px;
 }
 
 .MidBody2 {
 
-    top: 490px;
+    padding-top: 32%;
     
     }
 
@@ -499,38 +467,31 @@ body {
 
     position: relative;
 
-    top: 497px;
+    left: 175px;
 
-    right: 928px;
 }
 
 .Group6 {
 
-    max-width: 1440px;
+    width: 1440px;
 
     height: 100%;
-
-    position: absolute;
-
-    left: 464px;
-
-    right: 464px;
-
-    top: 503px;
+    
+    position: relative;
+    
+    left: 620px;
 
     }
 
 .Group7 {
 
-    max-width: 1440px;
+    width: 1440px;
 
     height: 100%;
 
-    position: absolute;
+    position: relative;
 
-    left: 928px;
-
-    top: 503px;
+    Left: 1100px;
     
     }
 
