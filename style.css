@@ -188,6 +188,7 @@ body {
 
     display: block; /* Évite les espaces en bas de l'image */
 
+    right: 570px; 
 }
 
 .TextContentFlow {
@@ -196,7 +197,7 @@ body {
 
     height: 397px;
 
-    left: 850px;
+    left: 658px;
 
     top: 0px;
 
