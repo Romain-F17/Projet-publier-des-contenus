@@ -1,15 +1,11 @@
 html {
 
     display: block;
-    max-width: 1440px;
-    width: 1440px;
-    margin: auto;
+
 }
 
 body {
 
-    max-width : 1440px ;
-    width: auto;
     display: block;
     margin: auto;
     
@@ -17,9 +13,8 @@ body {
 
 .Dekstop1 {
 
-    max-width : 1440px ;
     display: block;
-    margin: 8px;
+    margin: auto;
     
     }  
 
