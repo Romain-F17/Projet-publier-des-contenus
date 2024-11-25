@@ -1,11 +1,28 @@
 html {
 
-max-height: fit-content;
-max-width: 1440px ;
-width: 1440px;
-margin: 0px;
-
+    display: block;
+    max-width: 1440px;
+    width: 1440px;
+    margin: auto;
 }
+
+body {
+
+    max-width : 1440px ;
+    width: auto;
+    display: block;
+    margin: auto;
+    
+    }  
+
+.Dekstop1 {
+
+    max-width : 1440px ;
+    display: block;
+    margin: 8px;
+    
+    }  
+
 
 .header-container {
 
@@ -137,18 +154,9 @@ margin: 0px;
 
 }
 
-body {
-
-max-height: fit-content;
-max-width: 1440px ;
-width: 1440px;
-margin: 0px;
-
-}
-
 .Topbody {
 
-    width: ;
+    width: 1440px;
 
     height: 100%;
 
@@ -335,10 +343,17 @@ margin: 0px;
 
 }
 
+br {
+
+    max-width: 1440px;
+    padding-top: 30%;
+
+}
+
 .MidBody {
 
-padding-top: 10%;
-
+    max-width: 1440px;
+    padding-top: 60% ;
 }
 
 .Group1 {
@@ -424,31 +439,33 @@ padding-top: 10%;
 }
 
 .Group2 {
-
-    max-width: 1440px;
+    width: 1440px;
 
     height: 100%;
-
-    position: absolute;
-
+    
+    position: relative;
+    
     left: 620px;
 
-}
+    }
 
 .Group4 {
 
-    max-width: 1440px;
+    width: 1440px;
 
     height: 100%;
 
-    position: absolute;
+    position: relative;
 
     Left: 1100px;
-}
+    
+    }
 
 .MidBody2 {
 
-    padding-top: 32%;
+    padding-top: 35%;
+    max-width: 1440px;
+    
     
     }
 
@@ -671,7 +688,7 @@ padding-top: 10%;
     
     }
 
-    .Footer {
+    .Footer2 {
 
         width: 1376px;
     
