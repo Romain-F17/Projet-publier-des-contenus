@@ -7,23 +7,26 @@ html {
 body {
 
     display: block;
-    margin: auto;
-    
+    margin: 0px ;
+    padding : 0px ;
+    font-family: arial
     }  
 
-.Dekstop1 {
+.Dekstop1, .Topbody, .header-container, .Footer2, .Newsletter {
 
-    display: block;
-    margin: auto;
-    
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+
     }  
 
 
 .header-container {
 
-    max-width: 1440px ;
+    max-width: 1200px ;
 
-    width: 1406px;
+    width: 1200px;
 
     height: 50px;
 
@@ -37,13 +40,14 @@ body {
 
     padding: 0 17px;
 
+    font-family: arial
+
 }
 
 .Image1 {
 
-    max-width: 1440px;
    
-    width: 1440px ;
+    width: 1200px ;
 
     height: 471px;
 
@@ -71,7 +75,9 @@ body {
 
     margin: 0;
 
-    padding-left: 90%;
+    padding-left: 55%;
+
+    font-family: arial
 
 }
 
@@ -87,6 +93,8 @@ body {
 
     justify-content: center;
 
+    font-family: arial
+
 }
 
 .nav-item div {
@@ -95,13 +103,13 @@ body {
 
     font-size: 16px;
 
-    font-family: Inter;
-
     font-weight: 400;
 
     line-height: 16px;
 
     word-wrap: break-word;
+
+    font-family: arial
 
 }
 
@@ -151,11 +159,13 @@ body {
 
 .Topbody {
 
-    width: 1440px;
+    width: 1200px;
 
     height: 100%;
 
-    position: relative;
+    position: absolute;
+    
+    margin-bottom: 20% ;
 
 }
 
@@ -173,7 +183,6 @@ body {
 
     padding-top: 50px;
     
-    left: 180px;
 }
 
 .Image2 {
@@ -192,7 +201,7 @@ body {
 
     height: 397px;
 
-    left: 850px;
+    left: 660px;
 
     top: 0px;
 
@@ -338,167 +347,6 @@ body {
 
 }
 
-br {
-
-    max-width: 1440px;
-    padding-top: 30%;
-
-}
-
-.MidBody {
-
-    max-width: 1440px;
-    padding-top: 60% ;
-}
-
-.Group1 {
-
-    width: 100%;
-
-    height: 100%;
-
-    position: relative;
-
-    left: 170px;
-
-}
-
-
-.Frame3 {
-
-    width: 122px;
-
-    height: 44px;
-
-    left: 72px;
-
-    top: 388px;
-
-    position: absolute;
-
-    background: #DC9D9D;
-
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
-
-    border-radius: 20px;
-
-    overflow: hidden;
-
-    border: 4px solid;
-
-}
-
-
-.Price2 {
-
-    width: 100px;
-
-    height: 50px;
-
-    left: 11px;
-
-    top: 7px;
-
-    position: absolute;
-
-    text-align: center;
-
-    color: black;
-
-    font-size: 22px;
-
-    font-family: 'Roboto', sans-serif;
-
-    font-weight: 400;
-
-    line-height: 28px;
-
-    word-wrap: break-word;
-
-}
-
-
-.Image3 {
-
-    width: 288px;
-
-    height: 367px;
-
-    left: 0px;
-
-    top: 0px;
-
-    position: absolute;
-
-
-}
-
-.Group2 {
-    width: 1440px;
-
-    height: 100%;
-    
-    position: relative;
-    
-    left: 620px;
-
-    }
-
-.Group4 {
-
-    width: 1440px;
-
-    height: 100%;
-
-    position: relative;
-
-    Left: 1100px;
-    
-    }
-
-.MidBody2 {
-
-    padding-top: 35%;
-    max-width: 1440px;
-    
-    
-    }
-
-.Group5 {
-
-    max-width: 1440px;
-
-    height: 100%;
-
-    position: relative;
-
-    left: 175px;
-
-}
-
-.Group6 {
-
-    width: 1440px;
-
-    height: 100%;
-    
-    position: relative;
-    
-    left: 620px;
-
-    }
-
-.Group7 {
-
-    width: 1440px;
-
-    height: 100%;
-
-    position: relative;
-
-    Left: 1100px;
-    
-    }
 
     .Newsletter {
 
@@ -506,15 +354,13 @@ br {
         
         height: 200px;
         
-        position: relative;
+        position: absolute;
     
         background: #EFEFEF;
-
-        top: 500px;
-
-        left: 120px;
         
         background-size: 280px 50px;
+
+        top: 2900px;
     }
     
     
@@ -683,6 +529,20 @@ br {
     
     }
 
+    .logo2 {
+
+        width: 90px;
+
+        height: 89px;
+
+        top: 2590px;
+
+        position: relative;
+
+        padding-left: 7px;
+    
+    }
+
     .Footer2 {
 
         width: 1376px;
@@ -703,7 +563,7 @@ br {
 
         position: relative;
     
-        top: 500px;
+        top: 2500px;
     }
     
     
@@ -819,16 +679,3 @@ br {
 
     }
 
-    .logo2 {
-
-        width: 90px;
-
-        height: 89px;
-
-        top: 590px;
-
-        position: relative;
-
-        padding-left: 7px;
-    
-    }
