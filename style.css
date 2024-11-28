@@ -47,7 +47,13 @@ body {
 
     padding: 0 17px;
 
-    font-family: arial
+    font-family: arial;
+    
+    position: sticky;
+
+    top: 0;
+    
+    z-index: 1000;
 
 }
 
