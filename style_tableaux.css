@@ -790,12 +790,12 @@ body {
 }
 
 .blockc{
-    flex: 1 1 30%; /* Allow the blocks to grow and shrink, with a base width of 30% */
-    max-width: 400px; /* Set a maximum width for each block */
-    height: auto; /* Allow height to adjust based on content */
-    margin: 10px; /* Add some margin for spacing */
+    flex: 1 1 30%; 
+    max-width: 480px; 
+    height: auto; 
+    margin: 10px; 
     height: 400px;
-    width: 400px;
+    width: 100%;
     position: relative;
     display: flex;
     flex-direction: column;
