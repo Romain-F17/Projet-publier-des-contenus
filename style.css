@@ -1027,7 +1027,124 @@ body {
 
 /* Onglet tableaux*/ 
 
+    .h1tab{
+        
+        margin-top: 30px;
 
+        text-align: center;
+
+        font-size: 50px;
+
+    }
+
+    /* Midtable Styles */
+.Midtable {
+    width: 100%;
+    max-width: 1200px;
+    height: 400px;
+    position: relative;
+    align-content: center;
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Group Styles */
+.Group1 {
+    width: 1199px;
+    height: 421px;
+    left: 24px;
+    top: 1504px;
+    position: absolute;
+}
+
+/* Frame Styles */
+.Frame9, .Frame10, .Frame11 {
+    width: 122px;
+    height: 44px;
+    padding-left: 11px;
+    padding-right: 11px;
+    background: #DC9D9D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 10px;
+    position: relative;
+} 
+
+.Line1, .Line2 {
+    width: 1210px;
+    height: 2px;
+    background: #1D1B20;
+}
+
+/* Price Styles */
+.Price {
+    
+    text-align: center;
+    color: black;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    word-wrap: break-word;
+    position: relative;
+    Display: block;
+}
+
+/* Image Styles */
+.Image {
+    width: 100%;
+    max-width: 270px;
+    height: auto;
+    max-height: 350px;
+    
+}
+
+.blockc{
+    flex: 1 1 30%; /* Allow the blocks to grow and shrink, with a base width of 30% */
+    max-width: 400px; /* Set a maximum width for each block */
+    height: auto; /* Allow height to adjust based on content */
+    margin: 10px; /* Add some margin for spacing */
+    height: 400px;
+    width: 400px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Animation */ 
+
+.nav-item:hover {
+    width: 100px;
+    height: 20px;
+    background: #ffffff;
+    transition: 1s;
+
+}
+
+.nav-item:hover div{
+    color: #1D1B20;
+    transition: 0.5ss;
+
+}
+
+/* Anim. Page Tableaux*/ 
+
+.Frame9:hover {
+    background: #fcb9b9;
+    transition: 0.5s;
+}
+.Frame10:hover {
+    background: #fcb9b9;
+    transition: 0.5s;
+}
+.Frame11:hover {
+    background: #fcb9b9;
+    transition: 0.5s;
+}
 
 
 
