@@ -1022,6 +1022,21 @@ body {
     }
 
 
+/* Animation barre du haut*/ 
+
+.nav-item:hover {
+    width: 100px;
+    height: 20px;
+    background: #ffffff;
+    transition: 1s;
+
+}
+
+.nav-item:hover div{
+    color: #1D1B20;
+    transition: 0.5ss;
+
+}
 
 
 
