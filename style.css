@@ -1011,3 +1011,168 @@ body {
 
     }
 
+
+
+/* Onglet tableaux*/ 
+
+
+
+
+
+
+
+
+
+
+
+
+/* Onglet Contact */ 
+
+.h1-onglet3{
+width: 100%;
+color: #1E1E1E; 
+font-size: 64px; 
+font-family: Arial, sans-serif;
+font-weight: 600; 
+line-height: 76.80px; 
+word-wrap: break-word; 
+gap:40px;
+margin-left: 30px;
+}
+
+.container_onglet3 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-bottom: 70px;
+    margin-left: 30px;
+    margin-top:50px;
+    gap:25px;
+}
+
+.email {
+    width: 315px;
+    height: 34px;
+    left: 329px;
+    top: 59px;
+    position: absolute;
+    color: #1E1E1E;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.60px;
+    word-wrap: break-word;
+}
+
+.phone {
+    width: 218px;
+    left: 329px;
+    top: 105px;
+    position: absolute;
+    color: #1E1E1E;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.60px;
+    word-wrap: break-word;
+}
+
+.name {
+    width: 218px;
+    left: 259px;
+    top: 5px;
+    position: absolute;
+}
+
+.first-name, .last-name {
+    color: #1E1E1E;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.60px;
+    word-wrap: break-word;
+}
+
+.last-name {
+    font-weight: 700;
+}
+
+.background {
+    width: 243.87px;
+    height: 279px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #EFEFEF;
+}
+
+.profile-image {
+    width: 209.75px;
+    height: 242px;
+    left: 16.06px;
+    top: 18px;
+    position: absolute;
+    border-radius: 21px;
+}
+.lesinfos {
+    width: 1440px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+    margin-left: 750px;
+    margin-top: -35px;
+    margin-bottom: 170px;
+}
+
+.skyart {
+    width: 200px;
+    height: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.title {
+    align-self: stretch;
+    color: #1E1E1E;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 48px;
+    word-wrap: break-word;
+}
+
+.spacer {
+    align-self: stretch;
+    display: inline-flex;
+}
+
+.contact-info {
+    width: 588px;
+    height: 148px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.info {
+    flex: 1 1 0;
+}
+
+.label {
+    color: #1E1E1E;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33.60px;
+    word-wrap: break-word;
+}
+
+.value {
+    color: #1E1E1E;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.60px;
+    word-wrap: break-word;
+}
+
