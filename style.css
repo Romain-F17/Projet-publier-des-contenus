@@ -1188,3 +1188,11 @@ margin-left: 30px;
     word-wrap: break-word;
 }
 
+@media screen and (max-width:600px){
+
+    .Dekstop1{
+        min-width: 300px;
+        flex-direction: column;
+    }
+
+}
