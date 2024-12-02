@@ -682,7 +682,7 @@ body {
 
     .Newsletter {
 
-        width: 1250PX;
+        width: 11000PX;
         
         height: 200px;
         
@@ -692,9 +692,9 @@ body {
         
         background-size: 280px 50px;
 
-        display: block;
+        Margin-top: 100px;
 
-        align-items: center;
+        Margin-bottom: 100px;
     }
     
     
