@@ -193,11 +193,11 @@ body {
 
     width: 1440px;
 
-    height: 100%;
+    height: 500px;
 
-    position: absolute;
+    position: relative;
     
-    margin-bottom: 20% ;
+    margin-bottom: 10% ;
     
     margin-left: 3%;
 
@@ -394,11 +394,36 @@ body {
     align-items: center;
 
 }
-
+.blockc{
+    flex: 1 1 30%; 
+    max-width: 480px; 
+    height: auto; 
+    gap: 10px; 
+    margin: 10px;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+.Midtable {
+    width: 100%;
+    max-width: 1440px;
+    height: 500px;
+    position: relative;
+    align-content: center;
+    display: flex; 
+    
+    flex-wrap: wrap;
+}
 
 .Group4, .Group5, .Group6 {
 
-    position: absolute;
+    position: relative;
 
     height: 431px;
 
