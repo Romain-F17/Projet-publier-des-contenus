@@ -1,0 +1,560 @@
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+        display: block;
+    
+        }  
+.header-container {
+    width: 1440px 100%;
+    height: 50px;
+    background: #6E5A5A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 17px;
+}
+.Image {
+    width: 100% ;
+    height: 500px;
+    background: linear-gradient(0deg, white 0%, white 100%);
+    display: block; /* Assure que l'image ne crée pas d'espaces en bas */
+}
+
+.logo {
+    width: 90px;
+    height: 89px;
+}
+
+.navigation ul {
+    display: flex ; 
+    gap: 20px; /* Espace entre les éléments */
+    list-style: none;
+    margin: 0;
+    padding-left: 93%;
+}
+
+.nav-item {
+    padding: 8px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item div {
+    color: #FFFEFE;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 16px;
+    word-wrap: break-word;
+}
+
+.nav-item.active {
+    background: #887575; /* Couleur de fond pour l'élément actif */
+    color: #000000; /* Couleur du texte pour l'élément actif */
+}
+
+.auth-buttons {
+    display: flex;
+color: #1E1E1E;
+    gap: 12px;
+}
+
+.login-button, .signup-button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.login-button {
+    background: #CDCDCD;
+    color: #1E1E1E;
+}
+
+.signup-button {
+    background: #2C2C2C;
+    color: #ffffff;
+}
+
+
+.h1-onglet3{
+width: 100%;
+color: #1E1E1E; 
+font-size: 64px; 
+font-family: Arial, sans-serif;
+font-weight: 600; 
+line-height: 76.80px; 
+word-wrap: break-word; 
+gap:40px;
+margin-left: 30px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-bottom: 70px;
+    margin-left: 30px;
+    margin-top:50px;
+    gap:25px;
+}
+
+.email {
+    width: 315px;
+    height: 34px;
+    left: 329px;
+    top: 59px;
+    position: absolute;
+    color: #1E1E1E;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.60px;
+    word-wrap: break-word;
+}
+
+.phone {
+    width: 218px;
+    left: 329px;
+    top: 105px;
+    position: absolute;
+    color: #1E1E1E;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.60px;
+    word-wrap: break-word;
+}
+
+.name {
+    width: 218px;
+    left: 259px;
+    top: 5px;
+    position: absolute;
+}
+
+.first-name, .last-name {
+    color: #1E1E1E;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.60px;
+    word-wrap: break-word;
+}
+
+.last-name {
+    font-weight: 700;
+}
+
+.background {
+    width: 243.87px;
+    height: 279px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #EFEFEF;
+}
+
+.profile-image {
+    width: 209.75px;
+    height: 242px;
+    left: 16.06px;
+    top: 18px;
+    position: absolute;
+    border-radius: 21px;
+}
+.lesinfos {
+    width: 1440px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+    margin-left: 750px;
+    margin-top: -35px;
+    margin-bottom: 170px;
+}
+
+.skyart {
+    width: 200px;
+    height: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.title {
+    align-self: stretch;
+    color: #1E1E1E;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 48px;
+    word-wrap: break-word;
+}
+
+.spacer {
+    align-self: stretch;
+    display: inline-flex;
+}
+
+.contact-info {
+    width: 588px;
+    height: 148px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.info {
+    flex: 1 1 0;
+}
+
+.label {
+    color: #1E1E1E;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33.60px;
+    word-wrap: break-word;
+}
+
+.value {
+    color: #1E1E1E;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.60px;
+    word-wrap: break-word;
+}
+.Newsletter {
+
+    width: 1250PX;
+    
+    height: 200px;
+    
+    position: relative;
+
+    background: #EFEFEF;
+    
+    background-size: 280px 50px;
+
+    margin-top: 100px;
+
+    left: 8%;
+
+    display: block;
+
+    align-items: center;
+}
+
+
+.InscrivezVousLaNewsletter {
+
+    width: 394px;
+
+    height: 56px;
+
+    left: 62px;
+
+    top: 80px;
+
+    position: absolute;
+
+    text-align: center;
+
+    color: black;
+
+    font-size: 28px;
+
+    font-family: Roboto, sans-serif; /* Ajout d'une police de secours */
+
+    font-weight: 400;
+
+    line-height: 36px;
+
+    word-wrap: break-word;
+
+}
+
+
+.TextField {
+
+    width: 529px;
+
+    height: 46px;
+
+    left: 496px;
+
+    top: 70px;
+
+    position: absolute;
+
+    opacity: 0.75;
+
+    border-top-left-radius: 4px;
+
+    border-top-right-radius: 4px;
+
+    display: inline-flex;
+
+    flex-direction: column;
+
+    justify-content: flex-start;
+
+    align-items: flex-start;
+
+}
+
+
+.TextFieldInner {
+
+    align-self: stretch;
+
+    flex: 1 1 0;
+
+    background: #E6E0E9;
+
+    border-top-left-radius: 4px;
+
+    border-top-right-radius: 4px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: flex-start;
+
+    align-items: flex-start;
+
+    gap: 10px;
+
+}
+
+
+.StateLayer {
+
+    align-self: stretch;
+
+    flex: 1 1 0;
+
+    padding: 4px 16px; /* Padding simplifié */
+
+    border-top-left-radius: 4px;
+
+    border-top-right-radius: 4px;
+
+    display: inline-flex;
+
+    justify-content: flex-start;
+
+    align-items: flex-start;
+
+}
+
+
+.Content {
+
+    flex: 1 1 0;
+
+    height: 48px;
+
+    padding: 4px 0; /* Padding simplifié */
+
+    display: inline-flex;
+
+    justify-content: center;
+
+    align-items: flex-start;
+
+}
+
+
+.InputTextContainer {
+
+    align-self: stretch;
+
+    display: inline-flex;
+
+    justify-content: flex-start;
+
+    align-items: center;
+
+}
+
+
+.InputText {
+
+    flex: 1 1 0;
+
+    color: #1D1B20;
+
+    font-size: 16px;
+
+    font-family: Roboto, sans-serif; /* Ajout d'une police de secours */
+
+    font-weight: 400;
+
+    line-height: 24px;
+
+    letter-spacing: 0.50px;
+
+    word-wrap: break-word;
+
+}
+
+
+.ActiveIndicator {
+
+    align-self: stretch;
+    height: 0px;
+    border: 1px #49454F solid;
+
+}
+.Footer {
+    display:block;
+    align-items: center;
+}
+.logo2 {
+    width: 90px;
+    height: 89px;
+    position: block;
+    padding-left: 7px;
+    margin-top: 200px;
+}
+.Footer2 {
+
+    width: 1440px;
+
+    height: 293px;
+
+    padding: 32px;
+
+    opacity: 0.90;
+
+    background: #b1b1b133;
+
+    justify-content: space-between;
+
+    align-items: flex-start;
+
+    display: block;
+
+    position: relative;
+
+    margin-top: 100px;
+
+}
+
+
+.Title {
+
+    width: 262px;
+
+    flex-direction: column;
+
+    justify-content: flex-start;
+
+    align-items: flex-start;
+
+    gap: 24px;
+
+    display: inline-flex;
+
+}
+
+
+.ButtonList {
+
+    justify-content: flex-start;
+
+    align-items: center;
+
+    gap: 16px;
+
+    display: inline-flex;
+
+}
+
+.XLogo,
+
+.LogoInstagram,
+
+.LogoYoutube,
+
+.Linkedin {
+
+    width: 24px; /* Ajusté la largeur pour uniformiser */
+
+    height: 24px; /* Ajusté la hauteur pour uniformiser */
+
+    position: relative;
+
+    font-size: 25px;
+
+}
+
+
+.Icon {
+
+    width: 100%;
+
+    height: 100%;
+
+    padding-top: 20px;
+}
+
+
+.TextLinkList {
+
+    width: 262px;
+
+    flex-direction: column;
+
+    justify-content: flex-start;
+
+    align-items: flex-start;
+
+    gap: 12px;
+
+    display: inline-flex;
+
+    padding-left: 7.62%
+
+}
+
+
+.TextStrong {
+
+    color: #1E1E1E;
+
+    font-size: 16px;
+
+    font-family: Inter, sans-serif; /* Ajout d'une police de secours */
+
+    font-weight: 600;
+
+    line-height: 22.40px;
+
+}
+
+
+.TextLinkListItem {
+
+    width: 180px;
+
+    height: 22px;
+
+    position: relative;
+
+    font-family: Arial, Helvetica, sans-serif ;
+
+}
+
+
+.ListItem {
+
+    position: absolute;
+
+    color: #1E1E1E;
+
+}
