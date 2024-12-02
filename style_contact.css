@@ -5,7 +5,7 @@ body {
     
         }  
 
-        .Dekstop1 {
+        .Dekstop1, .Topbody, .header-container, .Footer2, .Newsletter {
 
             width: 100%;
             max-width: 1440px;
