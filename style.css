@@ -193,14 +193,15 @@ body {
 
     width: 1440px;
 
+    max-width: 1440px;
+
     height: 500px;
 
     position: relative;
     
-    margin-bottom: 10% ;
-    
-    margin-left: 3%;
+    margin-bottom: 5% ;
 
+    left: 35px;
 }
 
 .image-container {
@@ -396,29 +397,28 @@ body {
 }
 .blockc{
     flex: 1 1 30%; 
-    max-width: 480px; 
+    max-width: 450px; 
     height: auto; 
     gap: 10px; 
-    margin: 10px;
+    margin: 20px;
     height: 400px;
-    width: 100%;
+    width: 90%;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: center;
-    
 }
 .Midtable {
     width: 100%;
-    max-width: 1440px;
+    max-width: 1415px;
     height: 500px;
     position: relative;
     align-content: center;
     display: flex; 
-    margin-left: 20px;
     flex-wrap: wrap;
+    left: 60px;
 }
 
 .Group4, .Group5, .Group6 {
@@ -692,19 +692,6 @@ body {
 }
 
 
-.Image6 {
-
-    width: 271px;
-
-    height: 354px;
-
-    left: 0px;
-
-    top: 0px;
-
-}
-
-
     .Newsletter {
 
         width: 1100PX;
@@ -896,10 +883,9 @@ body {
 
         position: relative;
 
-        padding-left: 7px;
+        top: 20px;
     
     }
-
     .Footer {
 
         display: block;
@@ -989,22 +975,6 @@ body {
     
         padding-top: 20px;
     }
-    .IconContainer{
-        display: flex; /* Use flexbox to align icons */
-        justify-content: center; /* Center the icons */
-        position: relative; /* Position relative for absolute positioning of logo */
-        
-    }
-
-    .icongroup{
-        position: relative;
-        z-index: 1;
-        display: flex;
-        flex-direction: row;
-        margin-left: -100px;
-        gap: 10px;
-        top: 50px;
-    }
     
     
     .TextLinkList {
@@ -1078,8 +1048,6 @@ body {
     transition: 0.5ss;
 
 }
-
-
 
 /* Onglet Contact */ 
 
@@ -1231,32 +1199,4 @@ margin-left: 30px;
     word-wrap: break-word;
 }
 
-@media screen and (max-width:600px){
-
-    .Dekstop1{
-        min-width: 300px;
-        flex-direction: column;
-    }
-    .Dekstop1, .Topbody, .1, .header-container, .Footer2, .Footer, .Newsletter {
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-    box-sizing: border-box;
-    } 
-    body {
-        Display: flex; 
-        background-color: #ffffff; 
-    }
-    .header-container{
-        width: 100%;
-        height: 36px; 
-        
-    }
-    .1{
-        position: relative; 
-        margin-top: 20%; 
     
-    }
-    
-    
-}
