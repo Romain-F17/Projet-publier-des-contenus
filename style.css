@@ -199,7 +199,7 @@ body {
 
     position: relative;
     
-    margin-bottom: 5% ;
+    margin-bottom: 3% ;
 
     left: 35px;
 }
@@ -882,6 +882,8 @@ body {
         height: 89px;
 
         position: relative;
+
+        bottom: 50px ; 
     
     }
     .Footer {
