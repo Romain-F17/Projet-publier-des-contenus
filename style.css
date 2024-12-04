@@ -418,7 +418,7 @@ body {
     align-content: center;
     display: flex; 
     flex-wrap: wrap;
-    left: 60px;
+    left: 100px;
 }
 
 .Group4, .Group5, .Group6 {
@@ -882,8 +882,6 @@ body {
         height: 89px;
 
         position: relative;
-
-        top: 20px;
     
     }
     .Footer {
