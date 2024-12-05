@@ -95,6 +95,11 @@ body {
 
 }
 
+.navigation {
+    position: relative;
+    left: 22%;
+}
+
 .navigation ul {
 
     display: flex;
@@ -105,9 +110,9 @@ body {
 
     margin: 0;
 
-    padding-left: 80%;
+    align-items: flex-end; 
 
-    font-family: arial
+    font-family: arial;
 
 }
 
@@ -129,7 +134,7 @@ body {
 
 .nav-item div {
 
-    color: #1E1E1E;
+    color: #ffffff;
 
     font-size: 16px;
 
@@ -139,15 +144,7 @@ body {
 
     word-wrap: break-word;
 
-    font-family: arial
-
-}
-
-.nav-item.active {
-
-    background: #F5F5F5; /* Couleur de fond pour l'élément actif */
-
-    color: #1E1E1E; /* Couleur du texte pour l'élément actif */
+    font-family: arial;
 
 }
 
