@@ -807,8 +807,8 @@ body {
 /* Animation */ 
 
 .nav-item:hover {
-    width: 100px;
-    height: 20px;
+    width: 160%;
+    height: 15px;
     background: #ffffff;
     transition: 1s;
 
