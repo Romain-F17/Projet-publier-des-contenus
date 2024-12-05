@@ -102,7 +102,9 @@ body {
 
     justify-content: center;
 
-    font-family: arial
+    font-family: arial;
+
+    color: #ffffff; 
 
 }
 
@@ -120,6 +122,11 @@ body {
 
     font-family: arial;
 
+}
+
+.mon-lien{
+    color: #1D1B20;
+    text-decoration: none;
 }
 
 
