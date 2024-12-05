@@ -1026,8 +1026,8 @@ body {
 /* Animation barre du haut*/ 
 
 .nav-item:hover {
-    width: 100px;
-    height: 20px;
+    width: 160%;
+    height: 15px;
     background: #ffffff;
     transition: 1s;
 
@@ -1035,7 +1035,7 @@ body {
 
 .nav-item:hover div{
     color: #1D1B20;
-    transition: 0.5ss;
+    transition: 0.5s;
 
 }
 
