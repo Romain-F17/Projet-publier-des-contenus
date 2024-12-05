@@ -5,7 +5,7 @@ html {
 }
 
 body {
-
+    background-color: #754857;
     display: block;
     margin: 0px ;
     padding : 0px ;
@@ -22,7 +22,11 @@ body {
 
     }  
     
-   
+.Dekstop1 {
+
+    background-color: white;
+
+}
 
 .header-container {
 
