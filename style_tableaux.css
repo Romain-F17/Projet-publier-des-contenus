@@ -129,7 +129,7 @@ body {
 }
 
 .mon-lien{
-    color: #1D1B20;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -560,8 +560,10 @@ body {
 
     .Footer2 {
 
-        width: 1376px;
-    
+        width: 100%;
+
+        max-width: 1440px;
+        
         height: 100%;
     
         padding: 32px;
