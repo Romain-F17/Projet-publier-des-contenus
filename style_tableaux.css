@@ -80,7 +80,7 @@ body {
 
 .navigation {
     position: relative;
-    left: 22%;
+    left: 44%%;
 }
 
 .navigation ul {
@@ -134,6 +134,7 @@ body {
     border: 2px solid #ccc;
     border-radius: 25px;
     overflow: hidden;
+    
 }
 
 .search-input {
