@@ -95,7 +95,7 @@ body {
 
     padding-left: 55%;
 
-    font-family: arial
+    font-family: arial;
 
 }
 
@@ -111,9 +111,7 @@ body {
 
     justify-content: center;
 
-    font-family: arial;
-
-    color: #1E1E1E; 
+    font-family: arial; 
 
 }
 
@@ -134,7 +132,7 @@ body {
 }
 
 .mon-lien{
-    color: #ffffff;
+    color: #1E1E1E;
     text-decoration: none;
 }
 
@@ -783,6 +781,7 @@ body {
     width: 1210px;
     height: 2px;
     background: #1D1B20;
+    margin: 0 auto;
 }
 
 /* Price Styles */
