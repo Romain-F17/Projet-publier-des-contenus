@@ -25,6 +25,7 @@ body {
      .Dekstop1 {
 
                 background-color: white;
+                height: 1800px;
             
             }
            
@@ -491,8 +492,6 @@ margin-left: 30px;
         height: 89px;
 
         position: relative;
-
-        top: 20px;
     
     }
     .Footer {
