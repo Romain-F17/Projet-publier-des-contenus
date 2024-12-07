@@ -22,10 +22,10 @@ body {
             } 
             
         
-     .Dekstop1 {
+.Dekstop1 {
 
-                background-color: white;
-                height: 1800px;
+            background-color: white;
+            min-height: 1775px;
             
             }
            
@@ -492,13 +492,14 @@ margin-left: 30px;
         height: 89px;
 
         position: relative;
+
+        top: 100px;
     
     }
     .Footer {
 
         display: block;
         align-items: center;
-
     }
 
     .Footer2 {
@@ -511,7 +512,7 @@ margin-left: 30px;
     
         opacity: 0.90;
     
-        background: #b1b1b133;
+        background-color: #b1b1b133;
     
         justify-content: space-between;
     
@@ -637,6 +638,8 @@ margin-left: 30px;
         color: #1E1E1E;
 
     }
+
+
 
 
 
