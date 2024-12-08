@@ -112,6 +112,7 @@ body {
 
     font-family: arial; 
 
+
 }
 
 .nav-item div {
@@ -158,7 +159,7 @@ body {
 }
 
 .mon-lien{
-    color: #1E1E1E;
+    color: #f5eeee;
     text-decoration: none;
 }
 
@@ -864,9 +865,9 @@ body {
 
 }
 
-.nav-item:hover div{
+.nav-item:hover .mon-lien{
     color: #1D1B20;
-    transition: 0.5ss;
+    transition: 1s;
 
 }
 
