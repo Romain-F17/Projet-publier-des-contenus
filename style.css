@@ -59,9 +59,9 @@ body {
 
 .mon-lien {
 
-    color: rgb(0, 0, 0); /* Couleur du texte */
+    color: #f5eeee;
 
-    text-decoration: none; /* Supprime le soulignement */
+    text-decoration: none; 
 
 }
 
@@ -1033,11 +1033,11 @@ body {
 
 }
 
-.nav-item:hover div{
+.nav-item:hover .mon-lien{
     color: #1D1B20;
-    transition: 0.5s;
-
+    transition: 1s;
 }
+
 
 /* Onglet Contact */ 
 
