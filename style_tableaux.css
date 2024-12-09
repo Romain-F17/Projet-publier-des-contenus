@@ -147,15 +147,11 @@ body {
 }
 
 .search-button {
-    background-color: #007BFF;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     border: none;
     padding: 10px 15px;
     cursor: pointer;
-}
-
-.search-button:hover {
-    background-color: #0056b3;
 }
 
 .mon-lien{
