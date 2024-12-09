@@ -25,6 +25,10 @@ body {
 .Dekstop1 {
 
     background-color: white;
+    height: 2800px;
+    display: block;
+    align-items: center;
+    flex-direction: column;
 
 }
 
@@ -133,7 +137,6 @@ body {
 
 .search-container {
     display: flex;
-    border: 2px solid #ccc;
     border-radius: 25px;
     overflow: hidden;
     position: relative;
