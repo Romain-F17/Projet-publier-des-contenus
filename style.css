@@ -6,10 +6,11 @@ html {
 
 body {
 
-    display: block;
+    display: flex;
     margin: 0px ;
     padding : 0px ;
     font-family: arial ;
+    min-width: 900px;
     background-color: #754857;
     }  
 
@@ -198,6 +199,7 @@ body {
     color: #F5F5F5;
 
 }
+
 
 
 .Topbody {
@@ -390,6 +392,36 @@ body {
     line-height: 28px;
 
     word-wrap: break-word;
+
+}
+
+.Add {
+
+    width: 100px;
+
+    height: 50px;
+
+    left: 11px;
+
+    top: 7px;
+
+    position: absolute;
+
+    text-align: center;
+
+    color: rgb(255, 255, 255);
+
+    font-size: 20px;
+
+    font-family: Arial, Helvetica, sans-serif,;
+
+    font-weight: 400;
+
+    line-height: 28px;
+
+    word-wrap: break-word;
+
+    visibility: hidden;
 
 }
 
@@ -703,183 +735,198 @@ body {
 }
 
 
-    .Newsletter {
+.Newsletter {
 
-        width: 1100PX;
-        
-        height: 200px;
-        
-        position: relative;
+    max-width: 1100PX;
     
-        background: #EFEFEF;
-        
-        background-size: 280px 50px;
+    height: 200px;
+    
+    position: relative;
 
-        Margin-top: 100px;
+    background: #EFEFEF;
+    
+    background-size: 280px 50px;
 
-        Margin-bottom: 100px;
-    }
-    
-    
-    .InscrivezVousLaNewsletter {
-    
-        width: 394px;
-    
-        height: 56px;
-    
-        left: 62px;
-    
-        top: 80px;
-    
-        position: absolute;
-    
-        text-align: center;
-    
-        color: black;
-    
-        font-size: 28px;
-    
-        font-family: Roboto, sans-serif; /* Ajout d'une police de secours */
-    
-        font-weight: 400;
-    
-        line-height: 36px;
-    
-        word-wrap: break-word;
-    
-    }
-    
-    
-    .TextField {
-    
-        width: 529px;
-    
-        height: 46px;
-    
-        left: 496px;
-    
-        top: 70px;
-    
-        position: absolute;
-    
-        opacity: 0.75;
-    
-        border-top-left-radius: 4px;
-    
-        border-top-right-radius: 4px;
-    
-        display: inline-flex;
-    
-        flex-direction: column;
-    
-        justify-content: flex-start;
-    
-        align-items: flex-start;
-    
-    }
-    
-    
-    .TextFieldInner {
-    
-        align-self: stretch;
-    
-        flex: 1 1 0;
-    
-        background: #E6E0E9;
-    
-        border-top-left-radius: 4px;
-    
-        border-top-right-radius: 4px;
-    
-        display: flex;
-    
-        flex-direction: column;
-    
-        justify-content: flex-start;
-    
-        align-items: flex-start;
-    
-        gap: 10px;
-    
-    }
-    
-    
-    .StateLayer {
-    
-        align-self: stretch;
-    
-        flex: 1 1 0;
-    
-        padding: 4px 16px; /* Padding simplifié */
-    
-        border-top-left-radius: 4px;
-    
-        border-top-right-radius: 4px;
-    
-        display: inline-flex;
-    
-        justify-content: flex-start;
-    
-        align-items: flex-start;
-    
-    }
-    
-    
-    .Content {
-    
-        flex: 1 1 0;
-    
-        height: 48px;
-    
-        padding: 4px 0; /* Padding simplifié */
-        
-        display: inline-flex;
-    
-        justify-content: center;
-    
-        align-items: flex-start;
-    
-    }
-    
+    margin-top: 100px;
+
+    margin-bottom: 100px;
+
+    display: flex;
 
 
-        .InputText {
-    
-        flex: 1 1 0;
-    
-        color: #1D1B20;
-    
-        font-size: 16px;
-    
-        font-family: Roboto, sans-serif; 
-    
-        font-weight: 400;
-    
-        line-height: 50px;
-    
-        letter-spacing: 0.50px;
-    
-        word-wrap: break-word;
+}
 
-        border: none;
 
-        margin-bottom: 4px;
+.InscrivezVousLaNewsletter {
 
-        background-color: #E6E0E9;
+    width: 394px;
 
-        
+    height: 56px;
+
+    left: 62px;
+
+    top: 80px;
+
+    position: absolute;
+
+    text-align: center;
+
+    color: black;
+
+    font-size: 28px;
+
+    font-family: Roboto, sans-serif; /* Ajout d'une police de secours */
+
+    font-weight: 400;
+
+    line-height: 36px;
+
+    word-wrap: break-word;
+
+}
+
+
+.TextField {
+
+    width: 529px;
+
+    height: 46px;
+
+    left: 496px;
+
+    top: 70px;
+
+    position: absolute;
+
+    opacity: 0.75;
+
+    border-top-left-radius: 4px;
+
+    border-top-right-radius: 4px;
+
+    display: inline-flex;
+
+    flex-direction: column;
+
+    justify-content: flex-start;
+
+    align-items: flex-start;
+
+}
+
+
+.TextFieldInner {
+
+    align-self: stretch;
+
+    flex: 1 1 0;
+
+    background: #E6E0E9;
+
+    border-top-left-radius: 4px;
+
+    border-top-right-radius: 4px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: flex-start;
+
+    align-items: flex-start;
+
+    gap: 10px;
+
+}
+
+
+.StateLayer {
+
+    align-self: stretch;
+
+    flex: 1 1 0;
+
+    padding: 4px 16px; /* Padding simplifié */
+
+    border-top-left-radius: 4px;
+
+    border-top-right-radius: 4px;
+
+    display: inline-flex;
+
+    justify-content: flex-start;
+
+    align-items: flex-start;
+
+}
+
+
+.Content {
+
+    flex: 1 1 0;
+
+    height: 48px;
+
+    padding: 4px 0; /* Padding simplifié */
+
+    display: inline-flex;
+
+    justify-content: center;
+
+    align-items: flex-start;
+
+}
+
+
+.InputTextContainer {
+
+    align-self: stretch;
+
+    display: inline-flex;
+
+    justify-content: flex-start;
+
     
-    }
+
+}
+
+
+.InputText {
+
+    flex: 1 1 0;
+
+    color: #1D1B20;
+
+    font-size: 16px;
+
+    font-family: Roboto, sans-serif; 
+
+    font-weight: 400;
+
+    line-height: 50px;
+
+    letter-spacing: 0.50px;
+
+    word-wrap: break-word;
+
+    border: none;
+
+    background-color: #E6E0E9;
+
     
-    .ActiveIndicator {
-    
-        align-self: stretch;
-    
-        height: 0px;
-    
-        border: 1px #49454F solid;
-    
-    }
+
+}
+
+
+.ActiveIndicator {
+
+    align-self: stretch;
+
+    height: 0px;
+
+    border: 1px #49454F solid;
+
+}
 
     .logo2 {
 
@@ -1049,11 +1096,11 @@ body {
 
 }
 
-.nav-item:hover .mon-lien{
+.nav-item:hover div{
     color: #1D1B20;
-    transition: 1s;
-}
+    transition: 0.5s;
 
+}
 
 /* Onglet Contact */ 
 
@@ -1203,6 +1250,105 @@ margin-left: 30px;
     font-weight: 400;
     line-height: 33.60px;
     word-wrap: break-word;
+}
+
+/* Anim. Page Tableaux*/ 
+
+.Frame2:hover {
+    background: #000000;
+    transition: 0.5s;
+    .Add {
+        visibility: visible;
+    }
+    .Price {
+
+        visibility: hidden;
+    }
+}
+
+.Frame2:hover {
+    background: #000000;
+    transition: 0.5s;
+    .Add {
+        visibility: visible;
+    }
+    .Price {
+
+        visibility: hidden;
+    }
+}
+
+.Frame3:hover {
+    background: #000000;
+    transition: 0.5s;
+    .Add {
+        visibility: visible;
+    }
+    .Price {
+
+        visibility: hidden;
+    }
+}
+
+.Frame4:hover {
+    background: #000000;
+    transition: 0.5s;
+    .Add {
+        visibility: visible;
+    }
+    .Price {
+
+        visibility: hidden;
+    }
+}
+
+.Frame5:hover {
+    background: #000000;
+    transition: 0.5s;
+    .Add {
+        visibility: visible;
+    }
+    .Price {
+
+        visibility: hidden;
+    }
+}
+
+.Frame6:hover {
+    background: #000000;
+    transition: 0.5s;
+    .Add {
+        visibility: visible;
+    }
+    .Price {
+
+        visibility: hidden;
+    }
+}
+
+.Frame7:hover {
+    background: #000000;
+    transition: 0.5s;
+    .Add {
+        visibility: visible;
+    }
+    .Price {
+
+        visibility: hidden;
+    }
+}
+
+.Frame8:hover {
+
+    background: #000000;
+    transition: 0.5s;
+    .Add {
+        visibility: visible;
+    }
+    .Price {
+
+        visibility: hidden;
+    }
 }
 
 /* Media queries */
