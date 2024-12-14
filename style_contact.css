@@ -686,6 +686,18 @@ position: relative;
 
     }
 
+    /* Animations */
 
-
+    .nav-item:hover {
+        width: 160%;
+        height: 15px;
+        background: #ffffff;
+        transition: 1s;
+    
+    }
+    
+    .nav-item:hover .mon-lien{
+        color: #1D1B20;
+        transition: 0.5s;
+    }
 
