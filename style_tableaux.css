@@ -677,6 +677,15 @@ body {
         position: relative;
     
     }
+.Icon {
+        width: 100%;
+    
+        height: 100%;
+    
+        padding-top: 20px;
+
+text-decoration: none; 
+    }
 
     .IconContainer{
         display: flex; /* Use flexbox to align icons */
