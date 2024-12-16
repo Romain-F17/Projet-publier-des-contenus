@@ -13,15 +13,14 @@ body {
     
     }  
 
-.Dekstop1, .Topbody, .header-container, .Footer2, .Newsletter {
+    .Dekstop1, .Topbody,.header-container, .Footer2, .Footer, .Newsletter {
 
-    width: 100%;
-    max-width: 1440px;
-  
-    margin: 0 auto;
-    box-sizing: border-box;
-
-    }  
+        width: 100%;
+        max-width: 1440px;
+        margin: 0 auto;
+        box-sizing: border-box;
+    
+        }  
     
 .Dekstop1 {
 
@@ -45,8 +44,6 @@ body {
 
     display: flex;
 
-    justify-content: space-between;
-
     align-items: center;
 
     padding: 0 17px;
@@ -58,6 +55,7 @@ body {
     top: 0;
     
     z-index: 1000; 
+
 
 }
 
@@ -84,7 +82,7 @@ body {
 
 .navigation {
     position: relative;
-    
+    left: 25%;
 }
 
 .navigation ul {
@@ -198,7 +196,6 @@ body {
     color: #F5F5F5;
 
 }
-
 .Topbody {
 
     width: 1200px;
@@ -936,7 +933,6 @@ body {
 }
 
 /* Media queries */
-/* Media queries */
 @media screen and (max-width: 880px) {
     .Dekstop1, .Topbody, .Midbody1, .Footer2, .Footer, .Newsletter {
       width: 100%;
@@ -963,42 +959,47 @@ background-color: transparent;
     box-sizing: initial;
   }
 
-    .header-container {
-      width: 100%;
-    }
-   
-    .navigation ul {
-      gap: 10px;
-      visibility: visible;
-      position: relative;
-      padding-left: 0px;
-    }
+  .header-container {
+    width: 100%;
+    min-width: 865px;
+  }
 
-    .search-input {
+  .navigation ul {
+    gap: 10px;
+    visibility: visible;
+    position: relative;
+    display: flex;
+   left: -300px;
+  }
 
-        visibility: hidden;
-    }
+  .search-input {
 
-    .search-button {
+      visibility: hidden;
+  }
 
-        background-color: #6E5A5A;
-        color: white;
+  .search-button {
 
-    }
-  
-    .auth-buttons {
-      gap: 5px;
-      position: relative;    }
-  
-    .login-button, .signup-button {
-      padding: 6px 12px;
-      font-size: 14px;
-    }
-  
-    .Image1 {
-      width: 100%;
-      height: auto;
-    }
+      background-color: #6E5A5A;
+      color: white;
+
+  }
+
+  .auth-buttons {
+    gap: 5px;
+    position: relative;
+
+
+  }
+
+  .login-button, .signup-button {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+
+  .Image1 {
+    width: 100%;
+    height: auto;
+  }
   
     .Topbody {
         flex-direction: column;
@@ -1055,7 +1056,7 @@ background-color: transparent;
       padding-left: 0;
     }
     .Footer2 {
-        height: 750px;
+        height: 850px;
         padding: 20px;
         
         flex-direction: column;
