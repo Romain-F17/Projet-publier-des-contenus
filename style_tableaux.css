@@ -1061,36 +1061,38 @@ background-color: transparent;
       padding-left: 0;
     }
     .Footer2 {
-        height: 850px;
+        height: 750px;
         padding: 20px;
         min-width: 865px;
-        max-width:880px
+        max-width: 880px; 
         flex-direction: column;
-        
+        align-items: center;
         position: relative;
       }
 
-.Logo {
-position: relative;
+.logo2 {
+top: 110px;
+left: 10px;
+
 }
 
     .ButtonList {
-position: relative ;
-
+position: absolute;
+left: 700px;
     }
     .TextLinkList {
 position: static;
 padding-top: 50px;
     }
-.Line1, .Line2{
-    max-width: 500px;
-    width: 80%;
-    align-items: center;
-}
+
+    .Title {
+
+padding-top: 20px;
+
+    }
+
 
  }
 
-
-    
   
     
