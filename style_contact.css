@@ -1854,6 +1854,8 @@ position: relative;
         
           .Image1 {
             width: 100%;
+            min-width: 810px;
+            max-width: 880px;
             height: auto;
           }
 
