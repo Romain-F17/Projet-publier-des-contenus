@@ -22,210 +22,183 @@ body {
             } 
             
         
-.Dekstop1 {
-
-    background-color: white;
-    min-height: 1680px;
-    display: block;
-    align-items: center;
-    flex-direction: column;
-    
-    display: block;
-
-}
-
-body {
-    background-color: #754857;
-    display: block;
-    margin: 0px ;
-    padding : 0px ;
-    font-family: arial;
-    
-    }  
-
-.Dekstop1, .Topbody, .header-container, .Footer2, .Newsletter {
-
-    width: 100%;
-    max-width: 1440px;
-    margin: 0 auto;
-    box-sizing: border-box;
-
-    }  
-    
-.Dekstop1 {
-
-    background-color: white;
-    
-    display: block;
-    align-items: center;
-    flex-direction: column;
-
-}
-
-.header-container {
-
-    max-width: 1440px ;
-
-    width: 100%;
-
-    height: 50px;
-
-    background: #6E5A5A;
-
-    display: flex;
-
-    align-items: center;
-
-    padding: 0 17px;
-
-    font-family: arial;
-
-    position: sticky;
-
-    top: 0;
-    
-    z-index: 1000; 
-
-
-}
-
-.Image1 {
-
-   
-    width: 100% ;
-
-    height: 471px;
-
-    background: linear-gradient(0deg, #ffffff 0%, #ffffff 100%);
-
-    display: block; /* Assure que l'image ne crée pas d'espaces en bas */
-
-}
-
-.logo {
-
-    width: 90px;
-
-    height: 89px;
-
-}
-
-.navigation {
-    position: relative;
-    left: 25%;
-}
-
-.navigation ul {
-
-    display: flex;
-
-    gap: 20px; /* Espace entre les éléments */
-
-    list-style: none;
-
-    margin: 0;
-
-    font-family: arial;
-
-}
-
-
-.nav-item {
-
-    padding: 8px;
-
-    border-radius: 8px;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-    font-family: arial; 
-
-
-}
-
-.nav-item div {
-
-    font-size: 16px;
-
-    color: #ffffff;
-
-    font-weight: 400;
-
-    line-height: 16px;
-
-    word-wrap: break-word;
-
-    font-family: arial;
-
-}
-
-.search-container {
-    display: flex;
-    border-radius: 25px;
-    overflow: hidden;
-    position: relative;
-}
-
-.search-input {
-    border: none;
-    padding: 10px;
-    outline: none;
-    flex: 1;
-}
-
-.search-button {
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-}
-
-.mon-lien{
-    color: #f5eeee;
-    text-decoration: none;
-}
-
-
-.auth-buttons {
-
-    display: flex;
-
-    gap: 12px;
-
-}
-
-.login-button, .signup-button {
-
-    padding: 8px 16px;
-
-    border-radius: 8px;
-
-    border: none;
-
-    cursor: pointer;
-
-}
-
-.login-button {
-
-    background: #CDCDCD;
-
-    color: #1E1E1E;
-
-}
-
-.signup-button {
-
-    background: #2C2C2C;
-
-    color: #F5F5F5;
-
-}
+            .Dekstop1 {
+
+                background-color: white;
+                height: 1680px;
+                display: block;
+                align-items: center;
+                flex-direction: column;
+            
+            }
+            
+            .header-container {
+            
+                max-width: 1440px ;
+            
+                width: 100%;
+            
+                height: 50px;
+            
+                background: #6E5A5A;
+            
+                display: flex;
+            
+                align-items: center;
+            
+                padding: 0 17px;
+            
+                font-family: arial;
+            
+                position: sticky;
+            
+                top: 0;
+                
+                z-index: 1000; 
+            
+            
+            }
+            
+            .Image1 {
+            
+               
+                width: 100% ;
+            
+                height: 471px;
+            
+                background: linear-gradient(0deg, #ffffff 0%, #ffffff 100%);
+            
+                display: block; /* Assure que l'image ne crée pas d'espaces en bas */
+                
+            
+            }
+            
+            .logo {
+            
+                width: 90px;
+            
+                height: 89px;
+
+                padding-right: 11%;
+            
+            }
+            
+            .navigation {
+                position: relative;
+                left: 25%;
+            }
+            
+            .navigation ul {
+            
+                display: flex;
+            
+                gap: 20px; /* Espace entre les éléments */
+            
+                list-style: none;
+            
+                margin: 0;
+            
+                font-family: arial;
+            
+            }
+            
+            
+            .nav-item {
+            
+                padding: 8px;
+            
+                border-radius: 8px;
+            
+                display: flex;
+            
+                align-items: center;
+            
+                justify-content: center;
+            
+                font-family: arial; 
+            
+            
+            }
+            
+            .nav-item div {
+            
+                font-size: 16px;
+            
+                color: #ffffff;
+            
+                font-weight: 400;
+            
+                line-height: 16px;
+            
+                word-wrap: break-word;
+            
+                font-family: arial;
+            
+            }
+            
+            .search-container {
+                display: flex;
+                border-radius: 25px;
+                overflow: hidden;
+                position: relative;
+            }
+            
+            .search-input {
+                border: none;
+                padding: 10px;
+                outline: none;
+                flex: 1;
+            }
+            
+            .search-button {
+                background-color: #ffffff;
+                color: rgb(0, 0, 0);
+                border: none;
+                padding: 10px 15px;
+                cursor: pointer;
+            }
+            
+            .mon-lien{
+                color: #f5eeee;
+                text-decoration: none;
+            }
+            
+            
+            .auth-buttons {
+            
+                display: flex;
+            
+                gap: 12px;
+            
+            }
+            
+            .login-button, .signup-button {
+            
+                padding: 8px 16px;
+            
+                border-radius: 8px;
+            
+                border: none;
+            
+                cursor: pointer;
+            
+            }
+            
+            .login-button {
+            
+                background: #CDCDCD;
+            
+                color: #1E1E1E;
+            
+            }
+            
+            .signup-button {
+            
+                background: #2C2C2C;
+            
+                color: #F5F5F5;
+            
+            }
 
 .Topbody {
 
@@ -1843,7 +1816,7 @@ position: relative;
             background-color: white;
           }
           .header-container {
-            min-width: 710px;
+            min-width: 810px;
             max-width: 880px;
             width: 100%;
           }
@@ -1901,7 +1874,7 @@ position: relative;
 
             position: relative;
             width: 100%;
-            min-width: 710px;
+            min-width: 810px;
             max-width: 880px;
             top: px;
             flex-direction: column;
@@ -1924,7 +1897,7 @@ position: relative;
         .Footer2 {
             height: 780px;
             padding: 20px;
-            min-width: 710px;
+            min-width: 810px;
             max-width: 880px;
             flex-direction: column;
             align-items: center;
