@@ -26,7 +26,7 @@ body {
 .Dekstop1 {
 
     background-color: white;
-    height: 2800px;
+    height: 2880px;
     display: block;
     align-items: center;
     flex-direction: column;
@@ -941,7 +941,7 @@ body {
 
         position: relative;
 
-        top: 20px;
+        top: 100px;
     
     }
     .Footer {
