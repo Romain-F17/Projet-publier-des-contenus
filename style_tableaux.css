@@ -58,7 +58,6 @@ body {
     
     z-index: 1000; 
 
-
 }
 
 .Image1 {
@@ -971,7 +970,7 @@ background-color: transparent;
       gap: 10px;
       visibility: visible;
       position: relative;
-      
+      padding-left: 0px;
     }
 
     .search-input {
@@ -988,7 +987,7 @@ background-color: transparent;
   
     .auth-buttons {
       gap: 5px;
-      position: absolute;    }
+      position: relative;    }
   
     .login-button, .signup-button {
       padding: 6px 12px;
@@ -1059,38 +1058,31 @@ background-color: transparent;
         padding: 20px;
         
         flex-direction: column;
-        align-items: center;
+        
         position: relative;
       }
 
 .Logo {
-position: absolute;
-right: 600px;
+position: relative;
 }
 
     .ButtonList {
-position: absolute;
-left: 700px;
+position: relative ;
+
     }
     .TextLinkList {
 position: static;
 padding-top: 50px;
     }
-
-    .Title {
-
-padding-top: 20px;
-
-    }
-
-
- }
-
 .Line1, .Line2{
     max-width: 500px;
     width: 80%;
     align-items: center;
 }
+
+ }
+
+
     
   
     
