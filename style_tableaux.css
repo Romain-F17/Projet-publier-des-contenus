@@ -962,6 +962,7 @@ background-color: transparent;
   .header-container {
     width: 100%;
     min-width: 865px;
+    max-width:880px
   }
 
   .navigation ul {
@@ -1045,6 +1046,8 @@ background-color: transparent;
         width: 100%;
         flex-direction: column;
         align-items: center;
+    min-width: 865px;
+    max-width:880px
     }
   
     .InscrivezVousLaNewsletter, .TextField {
@@ -1060,7 +1063,8 @@ background-color: transparent;
     .Footer2 {
         height: 850px;
         padding: 20px;
-        
+        min-width: 865px;
+        max-width:880px
         flex-direction: column;
         
         position: relative;
