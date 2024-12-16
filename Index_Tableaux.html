@@ -1,1514 +1,336 @@
-html {
-
-    display: block;
-
-}
-
-body {
-
-    display: flex;
-    margin: 0px ;
-    padding : 0px ;
-    font-family: arial ;
-    min-width: 900px;
-    background-color: #754857;
-    }  
-
-.Dekstop1, .Topbody, .Midbody1, .header-container, .Footer2, .Footer, .Newsletter {
-
-    width: 100%;
-    max-width: 1440px;
-    margin: 0 auto;
-    box-sizing: border-box;
-
-    }  
-
-.Dekstop1 {
-
-    background-color: white;
-    height: 2800px;
-    display: block;
-    align-items: center;
-    flex-direction: column;
-
-}
-
-.header-container {
-
-    max-width: 1440px ;
-
-    width: 100%;
-
-    height: 50px;
-
-    background: #6E5A5A;
-
-    display: flex;
-
-
-
-    align-items: center;
-
-    padding: 0 17px;
-
-    font-family: arial;
-
-    position: sticky;
-
-    top: 0;
-    
-    z-index: 1000; 
-
-
-}
-
-.Image1 {
-
-   
-    width: 100% ;
-
-    height: 471px;
-
-    background: linear-gradient(0deg, #ffffff 0%, #ffffff 100%);
-
-    display: block; /* Assure que l'image ne crée pas d'espaces en bas */
-
-}
-
-.logo {
-
-    width: 90px;
-
-    height: 89px;
-
-}
-
-.navigation {
-    position: relative;
-    left: 25%;
-}
-
-.navigation ul {
-
-    display: flex;
-
-    gap: 20px; /* Espace entre les éléments */
-
-    list-style: none;
-
-    margin: 0;
-
-    font-family: arial;
-
-}
-
-
-.nav-item {
-
-    padding: 8px;
-
-    border-radius: 8px;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-    font-family: arial; 
-
-
-}
-
-.nav-item div {
-
-    font-size: 16px;
-
-    color: #ffffff;
-
-    font-weight: 400;
-
-    line-height: 16px;
-
-    word-wrap: break-word;
-
-    font-family: arial;
-
-}
-
-.search-container {
-    display: flex;
-    border-radius: 25px;
-    overflow: hidden;
-    position: relative;
-}
-
-.search-input {
-    border: none;
-    padding: 10px;
-    outline: none;
-    flex: 1;
-}
-
-.search-button {
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-}
-
-.mon-lien{
-    color: #f5eeee;
-    text-decoration: none;
-}
-
-
-.auth-buttons {
-
-    display: flex;
-
-    gap: 12px;
-
-}
-
-.login-button, .signup-button {
-
-    padding: 8px 16px;
-
-    border-radius: 8px;
-
-    border: none;
-
-    cursor: pointer;
-
-}
-
-.login-button {
-
-    background: #CDCDCD;
-
-    color: #1E1E1E;
-
-}
-
-.signup-button {
-
-    background: #2C2C2C;
-
-    color: #F5F5F5;
-
-}
-
-
-
-.Topbody {
-
-    width: 1440px;
-
-    max-width: 1440px;
-
-    height: 500px;
-
-    position: relative;
-    
-    margin-bottom: 5% ;
-
-    left: 35px;
-}
-
-.image-container {
-
-    width: 619px; /* Largeur du conteneur */
-
-    height: 451px; /* Hauteur automatique pour maintenir le ratio d'aspect */
-
-    max-width: 800px; /* Largeur maximale du conteneur */
-
-    overflow: hidden; /* Masque les débordements */
-
-    position: relative; /* Positionnement relatif pour le conteneur */
-
-    padding-top: 50px;
-    
-}
-
-.Image {
-
-    width: 100%; /* L'image prend 100% de la largeur du conteneur */
-
-    height: auto; /* La hauteur s'ajuste pour conserver le ratio d'aspect */
-
-    display: block; /* Évite les espaces en bas de l'image */
-
-}
-
-.TextContentFlow {
-
-    width: 531px;
-
-    height: 397px;
-
-    left: 660px;
-
-    top: 0px;
-
-    position: absolute;
-
-    display: flex;
-
-    flex-direction: column;
-
-    justify-content: flex-start;
-
-    align-items: flex-start;
-
-    gap: 24px;
-
-    padding-top: 70px;
-
-}
-
-.TextContentHeading {
-
-    align-self: stretch;
-
-    height: 61px;
-
-    display: flex;
-
-    flex-direction: column;
-
-    justify-content: flex-start;
-
-    align-items: flex-start;
-
-    gap: 8px;
-
-}
-
-
-.Heading {
-
-    align-self: stretch;
-
-    color: #1E1E1E;
-
-    font-size: 24px;
-
-    font-family: 'Inter', sans-serif;
-
-    font-weight: 600;
-
-    line-height: 28.8px;
-
-    word-wrap: break-word;
-
-}
-
-.Subheading {
-
-    align-self: stretch;
-
-    color: #757575;
- 
-    font-size: 20px;
-
-    font-family: 'Inter', sans-serif;
-
-    font-weight: 400;
-
-    margin-top: -30px;
-
-    line-height: 24px;
-
-    word-wrap: break-word;
-
-}
-
-.Text {
-
-    align-self: stretch;
-
-    justify-content: flex-start;
-
-    align-items: flex-start;
-
-    display: flex;
-
-    color: #1E1E1E;
-
-    font-size: 16px;
-
-    font-family: 'Inter', sans-serif;
-
-    font-weight: 400;
-
-    line-height: 22.4px;
-
-    word-wrap: break-word;
-}
-.desc{
-    margin-top: 20px;;
-}
-.Frame2 {
-
-    width: 122px;
-
-    height: 44px;
-
-    position: relative;
-
-    background: #DC9D9D;
-
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25) inset;
-
-    border-radius: 20px;
-
-    overflow: hidden;
-
-    border: 2px solid;
-
-}
-
-.Price {
-
-    width: 100px;
-
-    height: 50px;
-
-    left: 11px;
-
-    top: 7px;
-
-    position: absolute;
-
-    text-align: center;
-
-    color: black;
-
-    font-size: 22px;
-
-    font-family: 'Roboto', sans-serif;
-
-    font-weight: 400;
-
-    line-height: 28px;
-
-    word-wrap: break-word;
-
-}
-
-.Add {
-
-    width: 100px;
-
-    height: 50px;
-
-    left: 11px;
-
-    top: 7px;
-
-    position: absolute;
-
-    text-align: center;
-
-    color: rgb(255, 255, 255);
-
-    font-size: 20px;
-
-    font-family: Arial, Helvetica, sans-serif,;
-
-    font-weight: 400;
-
-    line-height: 28px;
-
-    word-wrap: break-word;
-
-    visibility: hidden;
-
-}
-
-.1 {
-
-    width: 100%;
-
-    height: 100%;
-
-    position: relative;
-
-    margin-top: 650px;
-
-    align-items: center;
-
-}
-.blockc{
-    flex: 1 1 30%; 
-    max-width: 450px; 
-    height: auto; 
-    gap: 10px; 
-    margin: 20px;
-    height: 400px;
-    width: 90%;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-}
-.Midtable {
-    width: 100%;
-    max-width: 1415px;
-    height: 500px;
-    position: relative;
-    align-content: center;
-    display: flex; 
-    flex-wrap: wrap;
-    justify-content: space-around;
-    left: 60px;
-}
-
-.Group4, .Group5, .Group6 {
-
-    position: relative;
-
-    height: 431px;
-
-}
-
-
-.Group6 {
-
-    width: 231.70px;
-
-    left: 1070px;
-
-    top: 7px;
-
-}
-
-
-.Group5 {
-
-    width: 271px;
-
-    left: 555px;
-
-    top: 7px;
-
-}
-
-
-.Group4 {
-
-    width: 288px;
-
-    left: 50px;
-
-    top: 0px;
-
-}
-
-
-.Frame5, .Frame4, .Frame3 {
-
-    width: 122px;
-
-    height: 44px;
-
-    position: absolute;
-
-    background: #DC9D9D;
-
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25) inset;
-
-    border-radius: 20px;
-
-    overflow: hidden;
-
-    border: 2px solid;
-
-    align-items: center;
-
-}
-
-
-.Frame5 {
-
-    left: 72px;
-
-    top: 388px;
-
-}
-
-
-.Frame4 {
-
-    left: 72px;
-
-    top: 387px;
-
-}
-
-
-.Frame3 {
-
-    left: 54px;
-
-    top: 387px;
-
-}
-
-.Image2 {
-
-    position: absolute;
-
-}
-
-
-.Image2:nth-of-type(1) {
-
-    width: 288px;
-
-    height: 367px;
-
-    left: 0px;
-
-    top: 0px;
-
-}
-
-
-.Image2:nth-of-type(2) {
-
-    width: 271px;
-
-    height: 354px;
-
-    left: 0px;
-
-    top: 0px;
-
-}
-
-
-.Image3 {
-
-    width: 231.70px;
-
-    height: 354px;
-
-    left: 0px;
-
-    top: 0px;
-
-}
-
-.2 {
-
-    width: 100%;
-
-    height: 100%;
-
-    position: relative;
-
-    align-items: center;
-}
-
-
-.Group3, .Group2, .Group1 {
-
-    position: absolute;
-
-    height: 431px;
-
-}
-
-
-.Group3 {
-
-    width: 231.70px;
-
-    left: 1070px;
-
-    top: 7px;
-
-}
-
-
-.Group2 {
-
-    width: 271px;
-
-    left: 555px;
-
-    top: 7px;
-
-}
-
-
-.Group1 {
-
-    width: 288px;
-
-    left: 30px;
-
-    top: 0px;
-
-}
-
-.Frame6, .Frame7, .Frame8 {
-
-    width: 122px;
-
-    height: 44px;
-
-    position: absolute;
-
-    background: #DC9D9D;
-
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25) inset;
-
-    border-radius: 20px;
-
-    overflow: hidden;
-
-    border: 2px solid;
-
-    align-items: center;
-
-}
-
-
-.Frame6 {
-
-    left: 54px;
-
-    top: 387px;
-
-}
-
-
-.Frame7 {
-
-    left: 72px;
-
-    top: 387px;
-
-}
-
-
-.Frame8 {
-
-    left: 72px;
-
-    top: 388px;
-
-}
-
-.Image3 {
-
-    position: absolute;
-
-}
-
-
-.Image3:nth-of-type(1) {
-
-    width: 271px;
-
-    height: 354px;
-
-    left: 0px;
-
-    top: 0px;
-
-}
-
-
-.Image3:nth-of-type(2) {
-
-    width: 271px;
-
-    height: 354px;
-
-    left: 0px;
-
-    top: 0px;
-
-}
-
-
-.Newsletter {
-
-    max-width: 1100PX;
-    
-    height: 200px;
-    
-    position: relative;
-
-    background: #EFEFEF;
-    
-    background-size: 280px 50px;
-
-    margin-top: 100px;
-
-    margin-bottom: 100px;
-
-    display: flex;
-
-
-}
-
-
-.InscrivezVousLaNewsletter {
-
-    width: 394px;
-
-    height: 56px;
-
-    left: 62px;
-
-    top: 80px;
-
-    position: absolute;
-
-    text-align: center;
-
-    color: black;
-
-    font-size: 28px;
-
-    font-family: Roboto, sans-serif; /* Ajout d'une police de secours */
-
-    font-weight: 400;
-
-    line-height: 36px;
-
-    word-wrap: break-word;
-
-}
-
-
-.TextField {
-
-    width: 529px;
-
-    height: 46px;
-
-    left: 496px;
-
-    top: 70px;
-
-    position: absolute;
-
-    opacity: 0.75;
-
-    border-top-left-radius: 4px;
-
-    border-top-right-radius: 4px;
-
-    display: inline-flex;
-
-    flex-direction: column;
-
-    justify-content: flex-start;
-
-    align-items: flex-start;
-
-}
-
-
-.TextFieldInner {
-
-    align-self: stretch;
-
-    flex: 1 1 0;
-
-    background: #E6E0E9;
-
-    border-top-left-radius: 4px;
-
-    border-top-right-radius: 4px;
-
-    display: flex;
-
-    flex-direction: column;
-
-    justify-content: flex-start;
-
-    align-items: flex-start;
-
-    gap: 10px;
-
-}
-
-
-.StateLayer {
-
-    align-self: stretch;
-
-    flex: 1 1 0;
-
-    padding: 4px 16px; /* Padding simplifié */
-
-    border-top-left-radius: 4px;
-
-    border-top-right-radius: 4px;
-
-    display: inline-flex;
-
-    justify-content: flex-start;
-
-    align-items: flex-start;
-
-}
-
-
-.Content {
-
-    flex: 1 1 0;
-
-    height: 48px;
-
-    padding: 4px 0; /* Padding simplifié */
-
-    display: inline-flex;
-
-    justify-content: center;
-
-    align-items: flex-start;
-
-}
-
-
-.InputTextContainer {
-
-    align-self: stretch;
-
-    display: inline-flex;
-
-    justify-content: flex-start;
-
-    
-
-}
-
-
-.InputText {
-
-    flex: 1 1 0;
-
-    color: #1D1B20;
-
-    font-size: 16px;
-
-    font-family: Roboto, sans-serif; 
-
-    font-weight: 400;
-
-    line-height: 50px;
-
-    letter-spacing: 0.50px;
-
-    word-wrap: break-word;
-
-    border: none;
-
-    background-color: #E6E0E9;
-
-    
-
-}
-
-
-.ActiveIndicator {
-
-    align-self: stretch;
-
-    height: 0px;
-
-    border: 1px #49454F solid;
-
-}
-
-    .logo2 {
-
-        width: 90px;
-
-        height: 89px;
-
-        position: relative;
-
-        top: 20px;
-    
-    }
-    .Footer {
-
-        display: block;
-        align-items: center;
-
-    }
-
-    .Footer2 {
-
-        width: 1440px;
-    
-        height: 293px;
-    
-        padding: 32px;
-    
-        opacity: 0.90;
-    
-        background: #b1b1b133;
-    
-        justify-content: space-between;
-    
-        align-items: flex-start;
-    
-        display: block;
-
-        position: absolute;
-
-   }
-    
-    
-    .Title {
-    
-        width: 262px;
-    
-        flex-direction: column;
-    
-        justify-content: flex-start;
-    
-        align-items: flex-start;
-    
-        gap: 24px;
-
-        display: inline-flex;
-    
-    }
-    
-    
-    .ButtonList {
-    
-        justify-content: flex-start;
-    
-        align-items: center;
-    
-        gap: 16px;
-    
-        display: inline-flex;
-    
-    }
-    
-    
-    .XLogo,
-    
-    .LogoInstagram,
-    
-    .LogoYoutube,
-    
-    .Linkedin {
-    
-        width: 24px; /* Ajusté la largeur pour uniformiser */
-    
-        height: 24px; /* Ajusté la hauteur pour uniformiser */
-    
-        position: relative;
-
-        font-size: 25px;
-    
-    }
-    
-    
-    .Icon {
-    
-        width: 100%;
-    
-        height: 100%;
-    
-        padding-top: 20px;
-
-text-decoration: none; 
-    }
-    
-    
-    .TextLinkList {
-    
-        width: 262px;
-    
-        flex-direction: column;
-    
-        justify-content: flex-start;
-    
-        align-items: flex-start;
-    
-        gap: 12px;
-    
-        display: inline-flex;
-
-        padding-left: 7.62%
-    
-    }
-    
-    
-    .TextStrong {
-    
-        color: #1E1E1E;
-    
-        font-size: 16px;
-    
-        font-family: Inter, sans-serif; /* Ajout d'une police de secours */
-    
-        font-weight: 600;
-    
-        line-height: 22.40px;
-    
-    }
-    
-    
-    .TextLinkListItem {
-    
-        width: 180px;
-
-        height: 22px;
-    
-        position: relative;
-
-        font-family: Arial, Helvetica, sans-serif ;
-
-    }
-    
-    
-    .ListItem {
-    
-        position: absolute;
-    
-        color: #1E1E1E;
-
-    }
-
-
-/* Animation barre du haut*/ 
-
-.nav-item:hover {
-    width: 160%;
-    height: 15px;
-    background: #ffffff;
-    transition: 1s;
-
-}
-
-.nav-item:hover .mon-lien{
-    color: #1D1B20;
-    transition: 0.5s;
-
-}
-
-/* Onglet Contact */ 
-
-.h1-onglet3{
-width: 100%;
-color: #1E1E1E; 
-font-size: 64px; 
-font-family: Arial, sans-serif;
-font-weight: 600; 
-line-height: 76.80px; 
-word-wrap: break-word; 
-gap:40px;
-margin-left: 30px;
-}
-
-.container_onglet3 {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    margin-bottom: 70px;
-    margin-left: 30px;
-    margin-top:50px;
-    gap:25px;
-}
-
-.email {
-    width: 315px;
-    height: 34px;
-    left: 329px;
-    top: 59px;
-    position: absolute;
-    color: #1E1E1E;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 33.60px;
-    word-wrap: break-word;
-}
-
-.phone {
-    width: 218px;
-    left: 329px;
-    top: 105px;
-    position: absolute;
-    color: #1E1E1E;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 33.60px;
-    word-wrap: break-word;
-}
-
-.name {
-    width: 218px;
-    left: 259px;
-    top: 5px;
-    position: absolute;
-}
-
-.first-name, .last-name {
-    color: #1E1E1E;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 33.60px;
-    word-wrap: break-word;
-}
-
-.last-name {
-    font-weight: 700;
-}
-
-.background {
-    width: 243.87px;
-    height: 279px;
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    background: #EFEFEF;
-}
-
-.profile-image {
-    width: 209.75px;
-    height: 242px;
-    left: 16.06px;
-    top: 18px;
-    position: absolute;
-    border-radius: 21px;
-}
-.lesinfos {
-    width: 1440px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 40px;
-    margin-left: 750px;
-    margin-top: -35px;
-    margin-bottom: 170px;
-}
-
-.skyart {
-    width: 200px;
-    height: 4px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 8px;
-}
-
-.title {
-    align-self: stretch;
-    color: #1E1E1E;
-    font-size: 30px;
-    font-weight: 600;
-    line-height: 48px;
-    word-wrap: break-word;
-}
-
-.spacer {
-    align-self: stretch;
-    display: inline-flex;
-}
-
-.contact-info {
-    width: 588px;
-    height: 148px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-
-.info {
-    flex: 1 1 0;
-}
-
-.label {
-    color: #1E1E1E;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 33.60px;
-    word-wrap: break-word;
-}
-
-.value {
-    color: #1E1E1E;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 33.60px;
-    word-wrap: break-word;
-}
-
-/* Anim. Page Tableaux*/ 
-
-.Frame2:hover {
-    background: #000000;
-    transition: 0.5s;
-    .Add {
-        visibility: visible;
-    }
-    .Price {
-
-        visibility: hidden;
-    }
-}
-
-.Frame2:hover {
-    background: #000000;
-    transition: 0.5s;
-    .Add {
-        visibility: visible;
-    }
-    .Price {
-
-        visibility: hidden;
-    }
-}
-
-.Frame3:hover {
-    background: #000000;
-    transition: 0.5s;
-    .Add {
-        visibility: visible;
-    }
-    .Price {
-
-        visibility: hidden;
-    }
-}
-
-.Frame4:hover {
-    background: #000000;
-    transition: 0.5s;
-    .Add {
-        visibility: visible;
-    }
-    .Price {
-
-        visibility: hidden;
-    }
-}
-
-.Frame5:hover {
-    background: #000000;
-    transition: 0.5s;
-    .Add {
-        visibility: visible;
-    }
-    .Price {
-
-        visibility: hidden;
-    }
-}
-
-.Frame6:hover {
-    background: #000000;
-    transition: 0.5s;
-    .Add {
-        visibility: visible;
-    }
-    .Price {
-
-        visibility: hidden;
-    }
-}
-
-.Frame7:hover {
-    background: #000000;
-    transition: 0.5s;
-    .Add {
-        visibility: visible;
-    }
-    .Price {
-
-        visibility: hidden;
-    }
-}
-
-.Frame8:hover {
-
-    background: #000000;
-    transition: 0.5s;
-    .Add {
-        visibility: visible;
-    }
-    .Price {
-
-        visibility: hidden;
-    }
-}
-
-/* Media queries */
-  @media screen and (max-width: 880px) {
-    .Dekstop1, .Topbody, .Midbody1, .Footer2, .Footer, .Newsletter {
-      width: 100%;
-      max-width: 880px;
-    
-}
-
-body {
-
-background-color: transparent;
-
-}
-
-.Dekstop1 {
-    width: 100%;
-    min-width: 400;
-    max-width: 100%;
-    height: 4700px;
-    min-height: 100vh;
-    display: block;
-    align-items: center;
-    flex-direction: column;
-    background-color: white;
-  }
-
-    .header-container {
-      width: 100%;
-    }
-
-    .navigation ul {
-      gap: 10px;
-      visibility: visible;
-      position: relative;
-     left: -300px;
-    }
-
-    .search-input {
-
-        visibility: hidden;
-    }
-
-    .search-button {
-
-        background-color: #6E5A5A;
-        color: white;
-
-    }
-  
-    .auth-buttons {
-      gap: 5px;
-      position: relative;
-
-
-    }
-  
-    .login-button, .signup-button {
-      padding: 6px 12px;
-      font-size: 14px;
-    }
-  
-    .Image1 {
-      width: 100%;
-      height: auto;
-    }
-  
-    .Topbody {
-        flex-direction: column;
-        height: auto;
-        align-items: center;
-      }
-    
-      .image-container, .TextContentFlow {
-        width: 90%;
-        position: static;
-      }
-    
-      .Midtable {
-        display: inline-flex;
-        flex-direction: column;
-        align-items: center;
-        height: 1500px;
-      }
-    
-      .blockc {
-        width: 100%;
-        position: relative;
-        max-width: 400px;
-        flex-direction: column;
-        align-items: center;
-        height: 500px;
-      }
-
-      .Midbody1 
-  
-    .Image2, .Image3 {
-      width: 100%;
-      height: auto;
-      flex-direction: column;
-        align-items: center
-    }
-
-    .Newsletter {
-
-        position: relative;
-        width: 100%;
-        top: px;
-        flex-direction: column;
-        align-items: center;
-    }
-  
-    .InscrivezVousLaNewsletter, .TextField {
-      position: static;
-      width: 100%;
-      margin-bottom: 20px;
-    }
-  
-    .TextLinkList {
-      width: 100%;
-      padding-left: 0;
-    }
-    .Footer2 {
-        height: 750px;
-        padding: 20px;
-        min-width: 880px;
-        flex-direction: column;
-        align-items: center;
-        position: relative;
-      }
-
-.logo2 {
-top: 110px;
-left: 10px;
-
-}
-
-    .ButtonList {
-position: absolute;
-left: 700px;
-    }
-    .TextLinkList {
-position: static;
-padding-top: 50px;
-    }
-
-    .Title {
-
-padding-top: 20px;
-
-    }
-
-
- }
-
-  
-    
+<!DOCTYPE html>
+
+<html lang="fr">
+    <meta name ="keywords" content ="galerie d’art à proximité, Art, Acheter, décoration, SkyART.">
+<meta name="description"   content="Découvrez nos tableaux exotiques des 4 coins du monde. Plongez dans un voyage de couleurs et textures uniques qui embelliront votre espace si vous les commandez !">
+<head>
+
+    <meta charset="UTF-8"/>
+
+    <title>Tableaux</title>
+
+    <link rel="stylesheet" href="style_tableaux.css"/> <!-- Lien vers le fichier CSS -->
+
+    <script src="https://kit.fontawesome.com/5fff72a96f.js" crossorigin="anonymous"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+   <div class="Dekstop1">
+
+        <img class="Image1" src="Les images/header.png" alt="galerie d'art avec des tableaux colorés"/>
+    
+        <div class="header-container">
+    
+            <img class="logo" src="Les images/LOGO SKY ART.png" alt="Logo" />
+        
+            <nav class="navigation">
+
+                <ul>
+
+                <li><div class="search-container">
+                    <input type="text" class="search-input" placeholder="Rechercher..."></input><i class="fa-solid fa-magnifying-glass search-button"></i> 
+                </div></li>
+                <li class="nav-item"><div><a href="https://romain-f17.github.io/Projet-publier-des-contenus/" class="mon-lien">Accueil</a></div></li>
+
+                <li class="nav-item"><div><a href="Index_Tableaux.html" class="mon-lien">Tableaux</a></div></li>
+    
+                <li class="nav-item"><div><a href="https://romain-f17.github.io/Projet-publier-des-contenus/" class="mon-lien">Artistes</a></div></li>
+    
+                <li class="nav-item"><div><a href="Index_Tableaux.html" class="mon-lien">Prix</a></div></li>
+    
+                <li class="nav-item"><div><a href="Index_Contact.html" class="mon-lien">Contact</a></div></li>
+        
+                </ul>
+        
+            </nav>
+        
+            <div class="auth-buttons">
+        
+                <button class="login-button">Connexion</button>
+        
+                <button class="signup-button">Inscription</button>
+        
+            </div>
+        
+        </div>
+        <!-- Tableaux -->
+        <h1 class="h1">Découvrir la galerie</h1>
+<br><br><br>
+        <div class="TextContentHeading">
+            <div class="Heading">Jeanne Paris</div>
+         </div>
+        <div class="Midtable">
+        
+            <div class="blockc">
+                <img class="Image" src="Les images/artabstrait1.jpg" alt="art abstrait 1"/>
+                <div class="Frame9">
+                 <div class="Price">3.500€</div>
+                 <div class="Add">Add to cart</div>
+                </div>
+            </div>
+            <div class="blockc">
+                <img class="Image" src="Les images/artabstrait2.jpg" alt="art abstrait 2" />
+                <div class="Frame10">
+                    <div class="Add">Add to cart</div>
+                    <div class="Price">600€</div>
+                </div>
+            </div>
+            <div class="blockc">
+                <img class="Image" src="Les images/artabstrait3.jpeg" alt="art abstrait 3" />
+                <div class="Frame11">
+                    <div class="Add">Add to cart</div>
+                    <div class="Price">300€</div>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+        <div class="Line1"></div>
+        <br><br><br>
+        <div class="TextContentHeading">
+                <div class="Heading"> Angello Pennello</div>
+            </div>
+        <div class="Midtable">
+            <div class="blockc">
+                <img class="Image" src="Les images/realisme1.jpg" alt="realisme 1"/>
+                <div class="Frame9">
+                    <div class="Add">Add to cart</div>
+                    <div class="Price">540€</div>
+                </div>
+            </div>
+            <div class="blockc">
+                <img class="Image" src="Les images/realisme2.jpg" alt="realisme 2"/>
+                <div class="Frame10">
+                    <div class="Add">Add to cart</div>
+                    <div class="Price">870€</div>
+                </div>
+            </div>
+            <div class="blockc">
+                <img class="Image" src="Les images/realisme3.jpg" alt="realisme 3"/>
+                <div class="Frame11">
+                    <div class="Add">Add to cart</div>
+                    <div class="Price">947€</div>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+        <div class="Line2"></div>
+        <br><br><br>
+         <div class="TextContentHeading">
+                <div class="Heading"> Christophe Madiarè</div>
+            </div>
+        <div class="Midtable">
+            <div class="blockc">
+                
+                <img class="Image" src="Les images/naturemorte1.jpg" alt="nature morte 1"/>
+                <div class="Frame9">
+                    <div class="Add">Add to cart</div>
+                    <div class="Price">350€</div>
+                </div>
+            </div>
+            <div class="blockc">
+                <img class="Image" src="Les images/naturemorte2.jpg" alt="nature morte 2"/>
+                <div class="Frame10">
+                    <div class="Add">Add to cart</div>
+                    <div class="Price">740€</div>
+                </div>
+            </div>
+            <div class="blockc">
+            <img class="Image" src="Les images/naturemorte3.jpg" alt="nature morte 3"/>
+                <div class="Frame11">
+                    <div class="Add">Add to cart</div>
+                    <div class="Price">980€</div>
+                </div>
+            </div>
+            
+            
+        </div>
+        
+
+<!-- Fin Tableaux -->
+
+
+        <div class="Newsletter">
+
+            <div class="InscrivezVousLaNewsletter">Inscrivez-vous à la Newsletter:</div>
+        
+            <div class="TextField">
+        
+                <div class="TextFieldInner">
+        
+                    <div class="StateLayer">
+        
+                        <div class="Content">
+        
+                            
+        
+                                <input type="text" class="InputText" placeholder="jarod.strejks@mailbox.co"></input>
+        
+                           
+        
+                        </div>
+        
+                    </div>
+        
+                </div>
+        
+                <div class="ActiveIndicator"></div>
+        
+            </div>
+        
+        </div>
+        
+        <div class="Footer">
+             
+            <div class="Footer2">
+                
+                <div class="Title">
+            
+                    <div class="ButtonList">
+                        
+                        <div class="IconContainer">
+                            <div class="Logo">
+                            <img src="Les images/LOGO SKY ART.png" alt="Logo" />
+                            </div>
+                        <div class="icongroup">
+                        <div class="XLogo">
+            
+                            <div class="Icon"><a href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a></div>
+            
+                        </div>
+            
+                        <div class="LogoInstagram">
+            
+                            <div class="Icon"><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></div>
+            
+                        </div>
+            
+                        <div class="LogoYoutube">
+            
+                            <div class="Icon"><a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a></div>
+            
+                        </div>
+            
+                        <div class="Linkedin">
+            
+                            <div class="Icon"><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a></div>
+            
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+            
+                </div>
+            
+                <div class="TextLinkList">
+            
+                    <div class="Title">
+            
+                        <div class="TextStrong">Nos Oeuvres</div>
+            
+                    </div>
+            
+                    <div class="TextLinkListItem">
+            
+                        <div class="ListItem">Photographie</div>
+            
+                    </div>
+            
+                    <div class="TextLinkListItem">
+            
+                        <div class="ListItem">Dessins</div>
+            
+                    </div>
+            
+                    <div class="TextLinkListItem">
+            
+                        <div class="ListItem">Peinture</div>
+            
+                    </div>
+            
+                    <div class="TextLinkListItem">
+            
+                        <div class="ListItem">Sculpture</div>
+            
+                    </div>
+            
+                </div>
+            
+            
+                <div class="TextLinkList">
+            
+                    <div class="Title">
+            
+                        <div class="TextStrong">Informations</div>
+            
+                    </div>
+            
+                    <div class="TextLinkListItem">
+            
+                        <div class="ListItem">Qui sommes-nous ?</div>
+            
+                    </div>
+            
+                    <div class="TextLinkListItem">
+            
+                        <div class="ListItem">CGU / CGV</div>
+            
+                    </div>
+            
+                    <div class="TextLinkListItem">
+            
+                        <div class="ListItem">Confidentialité / Cookies</div>
+            
+                    </div>
+            
+                    <div class="TextLinkListItem">
+            
+                        <div class="ListItem">Avis Légal</div>
+            
+                    </div>
+            
+                    <div class="TextLinkListItem">
+            
+                        <div class="ListItem">Où nous retrouver ?</div>
+            
+                    </div>
+            
+                </div>
+            
+                <div class="TextLinkList">
+            
+                    <div class="Title">
+            
+                        <div class="TextStrong">Besoin d’Aide ?</div>
+            
+                    </div>
+            
+                    <div class="TextLinkListItem">
+            
+                        <div class="ListItem">Centre d’aide</div>
+            
+                    </div>
+            
+                    <div class="TextLinkListItem">
+            
+                        <div class="ListItem">Support</div>
+            
+                    </div>
+            
+                    <div class="TextLinkListItem">
+            
+                        <div class="ListItem">Aide / FAQ</div>
+            
+                        </div>
+            
+                     </div>
+            
+                </div>
+            
+            </div>
+            
+            </body>
+            
+            </html>
