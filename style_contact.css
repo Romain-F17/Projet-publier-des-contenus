@@ -25,7 +25,7 @@ body {
 .Dekstop1 {
 
     background-color: white;
-    
+    min-height: 1680px;
     display: block;
     align-items: center;
     flex-direction: column;
@@ -74,8 +74,6 @@ body {
 
     display: flex;
 
-    
-
     align-items: center;
 
     padding: 0 17px;
@@ -87,6 +85,7 @@ body {
     top: 0;
     
     z-index: 1000; 
+
 
 }
 
@@ -1836,14 +1835,16 @@ position: relative;
             width: 100%;
             min-width: 600px;
             max-width: 100%;
-            height: min-content;
-            min-height: 100vh;
+            height: 100% ;
+            max-height: 480px
             display: block;
             align-items: center;
             flex-direction: column;
             background-color: white;
           }
           .header-container {
+            min-width: 710px;
+            max-width: 880px;
             width: 100%;
           }
       
@@ -1851,7 +1852,7 @@ position: relative;
             gap: 10px;
             visibility: visible;
             position: relative;
-           left: -300px;
+            left: -300px;
           }
       
           .search-input {
@@ -1870,11 +1871,18 @@ position: relative;
             gap: 5px;
             position: relative;
       
+      
           }
+        
+          .login-button, .signup-button {
+            padding: 6px 12px;
+            font-size: 14px;
+          }
+        
           .Image1 {
             width: 100%;
             height: auto;
-          } 
+          }
 
         .lesinfos{
             display: flex;
@@ -1893,6 +1901,8 @@ position: relative;
 
             position: relative;
             width: 100%;
+            min-width: 710px;
+            max-width: 880px;
             top: px;
             flex-direction: column;
             align-items: center;
@@ -1912,9 +1922,10 @@ position: relative;
         }
         
         .Footer2 {
-            height: 750px;
+            height: 780px;
             padding: 20px;
-            min-width: 880px;
+            min-width: 710px;
+            max-width: 880px;
             flex-direction: column;
             align-items: center;
             position: relative;
@@ -1922,7 +1933,6 @@ position: relative;
     
         .logo2 {
         top: 110px;
-        left: 10px;
     
         }
         .logo{
