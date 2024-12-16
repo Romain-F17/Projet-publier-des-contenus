@@ -45,7 +45,7 @@ body {
 
     display: flex;
 
-    justify-content: space-between;
+
 
     align-items: center;
 
@@ -85,7 +85,7 @@ body {
 
 .navigation {
     position: relative;
-    
+    left: 25%;
 }
 
 .navigation ul {
@@ -287,6 +287,7 @@ body {
 
 }
 
+
 .Heading {
 
     align-self: stretch;
@@ -310,12 +311,14 @@ body {
     align-self: stretch;
 
     color: #757575;
-
+ 
     font-size: 20px;
 
     font-family: 'Inter', sans-serif;
 
     font-weight: 400;
+
+    margin-top: -30px;
 
     line-height: 24px;
 
@@ -344,9 +347,10 @@ body {
     line-height: 22.4px;
 
     word-wrap: break-word;
-
 }
-
+.desc{
+    margin-top: 20px;;
+}
 .Frame2 {
 
     width: 122px;
@@ -461,6 +465,7 @@ body {
     align-content: center;
     display: flex; 
     flex-wrap: wrap;
+    justify-content: space-around;
     left: 60px;
 }
 
@@ -965,8 +970,6 @@ body {
         display: block;
 
         position: absolute;
-    
-        top: 2500px;
 
    }
     
@@ -1369,7 +1372,7 @@ background-color: transparent;
 
 .Dekstop1 {
     width: 100%;
-    min-width: 100%;
+    min-width: 400;
     max-width: 100%;
     height: 4700px;
     min-height: 100vh;
@@ -1387,7 +1390,7 @@ background-color: transparent;
       gap: 10px;
       visibility: visible;
       position: relative;
-      right: 350px;
+     left: -300px;
     }
 
     .search-input {
@@ -1404,8 +1407,8 @@ background-color: transparent;
   
     .auth-buttons {
       gap: 5px;
-      position: absolute;
-      left: 660px;
+      position: relative;
+
 
     }
   
@@ -1431,16 +1434,19 @@ background-color: transparent;
       }
     
       .Midtable {
+        display: inline-flex;
         flex-direction: column;
         align-items: center;
+        height: 1500px;
       }
     
       .blockc {
         width: 100%;
-        position: absolute;
-        max-width: none;
+        position: relative;
+        max-width: 400px;
         flex-direction: column;
-        align-items: center
+        align-items: center;
+        height: 500px;
       }
 
       .Midbody1 
@@ -1456,7 +1462,7 @@ background-color: transparent;
 
         position: relative;
         width: 100%;
-        top: 500px;
+        top: px;
         flex-direction: column;
         align-items: center;
     }
@@ -1475,15 +1481,14 @@ background-color: transparent;
         height: 750px;
         padding: 20px;
         min-width: 880px;
-        top: 3950px;
         flex-direction: column;
         align-items: center;
-        position: absolute;
+        position: relative;
       }
 
 .logo2 {
-position: absolute;
-top: 3970px;
+top: 110px;
+left: 10px;
 
 }
 
